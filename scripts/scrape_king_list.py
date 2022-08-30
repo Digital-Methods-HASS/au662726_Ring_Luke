@@ -28,7 +28,7 @@ print("Parsing html")
 for line in raw_html.split("\n"):
     if "h2 class=\"royal-line__monarch__item__content__title\"" in line:
         king = line.split("\">")[1].split("<")[0]
-        king_list.append(html.unescape(king))
+        king_list.append(html.unescape(king).strip())
     if "div class=\"royal-line__monarch__item__content__period\"" in line:
         years = line.split("\">")[1].split("<")[0]
         if "-" in years:
@@ -36,7 +36,7 @@ for line in raw_html.split("\n"):
         else:
             start = html.unescape(years)
             end = ''
-        year_list.append((start, end))
+        year_list.append((start.strip(), end.strip()))
 
 king_rules = dict(zip(king_list, year_list))
 print("Writing to csv")

@@ -1,6 +1,6 @@
 king;start;end
 Margrethe 2.;Siden 1972;
-Frederik 9.;1947 ; 1972
+Frederik 9.;1947;1972
 Christian 10.;1912;1947
 Frederik 8.;1906;1912
 Christian 9.;1863;1906
@@ -8,13 +8,13 @@ Frederik 7.;1848;1863
 Christian 8.;1839;1848
 Frederik 6.;1808;1839
 Christian 7.;1766;1808
-Frederik 5. ;1746;1766
-Christian 6. ;1730;1746
+Frederik 5.;1746;1766
+Christian 6.;1730;1746
 Frederik 4.;1699;1730
 Christian 5.;1670;1699
 Frederik 3.;1648;1670
-Christian 4. ;1588;1648
-Frederik 2. ;1559;1588
+Christian 4.;1588;1648
+Frederik 2.;1559;1588
 Christian 3.;1536;1559
 Interregnum;1332;1340
 Frederik 1.;1523;1533
