@@ -20,3 +20,16 @@ if (!file.exists(safi_data_file)) {
 }
 
 interviews <- read_csv(safi_data_file)
+
+n_interviews <- nrow(interviews)
+
+interviews_100 <- interviews[100, ]
+
+interviews_last <- interviews[n_interviews, ]
+
+interviews_last == tail(interviews, 1)
+
+interviews_middle <- interviews[floor(n_interviews / 2), ]
+
+head(interviews, 5) == interviews[1:5, ]
+
