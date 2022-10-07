@@ -1,0 +1,165 @@
+(base) PS C:\Users\xxxx\Documents\github_projects\au662726_Ring_Luke> . "c:\Users\xxxx\Documents\github_projects\au662726_Ring_Luke\images.ps1"
+The 3 biggest files in .\images\HW are:
+
+    Directory: C:\Users\xxxx\Documents\github_projects\au662726_Ring_Luke\images\HW
+
+Mode        LastWriteTime   Length Name
+----        -------------   ------ ----
+-a--- 18/01/2017    06.23 14761472 9240_Overview_S.RW2
+-a--- 18/01/2017    06.26 14733312 9247_Overview_SW.RW2
+-a--- 18/01/2017    06.21 14713856 9237_Overview_W.RW2
+
+There are 73 files that are 0 bytes in size in .\images\HW
+The files that are 0 bytes in size are:
+
+    Directory: C:\Users\xxxx\Documents\github_projects\au662726_Ring_Luke\images\HW
+
+Mode        LastWriteTime Length Name
+----        ------------- ------ ----
+-a--- 18/01/2017    11.01      0 9260_Detail_Drain.JPG
+-a--- 18/01/2017    11.01      0 9260_Detail_Stratigraphy.JPG
+-a--- 18/01/2017    11.01      0 9260_Overview_E.JPG
+-a--- 18/01/2017    11.01      0 9260_Overview_S.JPG
+-a--- 18/01/2017    11.01      0 9261_Overview_E.JPG
+-a--- 18/01/2017    11.01      0 9262_Overview_S.JPG
+-a--- 18/01/2017    11.01      0 9263_Overview_W.JPG
+-a--- 18/01/2017    11.01      0 9264_Overview_W.JPG
+-a--- 18/01/2017    11.01      0 9265_Overview_W.JPG
+-a--- 18/01/2017    11.01      0 9266_Overview_E.JPG
+-a--- 18/01/2017    11.01      0 9267_Overview_W.JPG
+-a--- 18/01/2017    11.01      0 9268_Overview_E.JPG
+-a--- 18/01/2017    11.01      0 9269_Overview_S.JPG
+-a--- 18/01/2017    11.01      0 9270_Overview_S.JPG
+-a--- 18/01/2017    11.01      0 9271_Overview_W.JPG
+-a--- 18/01/2017    11.01      0 9272_Overvieew_SE.JPG
+-a--- 18/01/2017    11.01      0 9272_Overview_with_Dich_E.JPG
+-a--- 18/01/2017    11.01      0 9273_Overview_S.JPG
+-a--- 18/01/2017    11.01      0 9274_Overview_W.JPG
+-a--- 18/01/2017    11.01      0 9275_Overview_SW.JPG
+-a--- 18/01/2017    11.01      0 9276_Overview_SW.JPG
+-a--- 18/01/2017    11.01      0 9277_Overview_NW.JPG
+-a--- 18/01/2017    11.01      0 9278_Overview_W.JPG
+-a--- 18/01/2017    11.01      0 9279_Overview_SW.JPG
+-a--- 18/01/2017    11.01      0 9280_Overview_SW.JPG
+-a--- 18/01/2017    11.02      0 9281_Overvierview_W.JPG
+-a--- 18/01/2017    11.02      0 9282_Overview_W.JPG
+-a--- 18/01/2017    11.48      0 9283_Overview_W.JPG
+-a--- 18/01/2017    11.50      0 9284_Overview_S.JPG
+-a--- 18/01/2017    11.48      0 9285_Overview_W.JPG
+-a--- 18/01/2017    11.47      0 9286_Overview_SW.JPG
+-a--- 18/01/2017    11.46      0 9287_Overview_S.JPG
+-a--- 18/01/2017    11.46      0 9288_Overview_S.JPG
+-a--- 18/01/2017    11.46      0 9289_Overview_S.JPG
+-a--- 18/01/2017    11.46      0 9290_Overview_S.JPG
+-a--- 18/01/2017    11.45      0 9291_Overview_W.JPG
+-a--- 18/01/2017    11.45      0 9292_Overview_SE.JPG
+-a--- 18/01/2017    11.45      0 9293_Overview_NW.JPG
+-a--- 18/01/2017    11.02      0 9301_Overview_S.JPG
+-a--- 18/01/2017    11.02      0 9302_overview_N.JPG
+-a--- 18/01/2017    11.02      0 9302_overview_W.JPG
+-a--- 18/01/2017    11.02      0 9303_overview_W.JPG
+-a--- 18/01/2017    11.02      0 9304_overview_pool.JPG
+-a--- 18/01/2017    11.02      0 9304_overview_W.JPG
+-a--- 18/01/2017    11.02      0 9305_overview_RT.JPG
+-a--- 18/01/2017    11.02      0 9305_overview_S.JPG
+-a--- 18/01/2017    11.02      0 9306_overview_S.JPG
+-a--- 18/01/2017    11.02      0 9306_ovrview_N.JPG
+-a--- 18/01/2017    11.02      0 9307_overview_S.JPG
+-a--- 18/01/2017    11.02      0 9308_overview_E.JPG
+-a--- 18/01/2017    11.02      0 9309_overview_W.JPG
+-a--- 18/01/2017    11.02      0 9310_overview_S.JPG
+-a--- 18/01/2017    11.02      0 9311_overview_RT_W.JPG
+-a--- 18/01/2017    11.02      0 9311_overview_W.JPG
+-a--- 18/01/2017    11.02      0 9312_overview_W.JPG
+-a--- 18/01/2017    11.02      0 9313_overview_W.JPG
+-a--- 18/01/2017    11.03      0 9314_overview_S.JPG
+-a--- 18/01/2017    11.03      0 9315_overview_S.JPG
+-a--- 18/01/2017    11.03      0 9316_overview_N.JPG
+-a--- 18/01/2017    11.03      0 9317_overview_E.JPG
+-a--- 18/01/2017    11.03      0 9318_overview_W.JPG
+-a--- 18/01/2017    11.03      0 9319_overview_W.JPG
+-a--- 18/01/2017    11.03      0 9320_overview_W.JPG
+-a--- 18/01/2017    11.03      0 9321_overview_W.JPG
+-a--- 18/01/2017    11.03      0 9321_RT(detail)_S.JPG
+-a--- 18/01/2017    11.03      0 9322_overview1_S.JPG
+-a--- 18/01/2017    11.03      0 9322_overview2_S.JPG
+-a--- 18/01/2017    11.03      0 9322_RT(detail).JPG
+-a--- 18/01/2017    11.03      0 9323_overview_S.JPG
+-a--- 18/01/2017    11.03      0 9324_overview_W.JPG
+-a--- 18/01/2017    11.03      0 9325_overview_S.JPG
+-a--- 18/01/2017    11.03      0 9326_overview_W.JPG
+-a--- 18/01/2017    11.03      0 9327_overview_E.JPG
+
+Replacing C:\Users\xxxx\Documents\github_projects\au662726_Ring_Luke\images\HW\9260_Detail_Drain.JPG with C:\Users\xxxx\Documents\github_projects\au662726_Ring_Luke\images\goodphotos\9260_Detail_Drain.JPG
+Replacing C:\Users\xxxx\Documents\github_projects\au662726_Ring_Luke\images\HW\9260_Detail_Stratigraphy.JPG with C:\Users\xxxx\Documents\github_projects\au662726_Ring_Luke\images\goodphotos\9260_Detail_Stratigraphy.JPG
+Replacing C:\Users\xxxx\Documents\github_projects\au662726_Ring_Luke\images\HW\9260_Overview_E.JPG with C:\Users\xxxx\Documents\github_projects\au662726_Ring_Luke\images\goodphotos\9260_Overview_E.JPG
+Replacing C:\Users\xxxx\Documents\github_projects\au662726_Ring_Luke\images\HW\9260_Overview_S.JPG with C:\Users\xxxx\Documents\github_projects\au662726_Ring_Luke\images\goodphotos\9260_Overview_S.JPG
+Replacing C:\Users\xxxx\Documents\github_projects\au662726_Ring_Luke\images\HW\9261_Overview_E.JPG with C:\Users\xxxx\Documents\github_projects\au662726_Ring_Luke\images\goodphotos\9261_Overview_E.JPG
+Replacing C:\Users\xxxx\Documents\github_projects\au662726_Ring_Luke\images\HW\9262_Overview_S.JPG with C:\Users\xxxx\Documents\github_projects\au662726_Ring_Luke\images\goodphotos\9262_Overview_S.JPG
+Replacing C:\Users\xxxx\Documents\github_projects\au662726_Ring_Luke\images\HW\9263_Overview_W.JPG with C:\Users\xxxx\Documents\github_projects\au662726_Ring_Luke\images\goodphotos\9263_Overview_W.JPG
+Replacing C:\Users\xxxx\Documents\github_projects\au662726_Ring_Luke\images\HW\9264_Overview_W.JPG with C:\Users\xxxx\Documents\github_projects\au662726_Ring_Luke\images\goodphotos\9264_Overview_W.JPG
+Replacing C:\Users\xxxx\Documents\github_projects\au662726_Ring_Luke\images\HW\9265_Overview_W.JPG with C:\Users\xxxx\Documents\github_projects\au662726_Ring_Luke\images\goodphotos\9265_Overview_W.JPG
+Replacing C:\Users\xxxx\Documents\github_projects\au662726_Ring_Luke\images\HW\9266_Overview_E.JPG with C:\Users\xxxx\Documents\github_projects\au662726_Ring_Luke\images\goodphotos\9266_Overview_E.JPG
+Replacing C:\Users\xxxx\Documents\github_projects\au662726_Ring_Luke\images\HW\9267_Overview_W.JPG with C:\Users\xxxx\Documents\github_projects\au662726_Ring_Luke\images\goodphotos\9267_Overview_W.JPG
+Replacing C:\Users\xxxx\Documents\github_projects\au662726_Ring_Luke\images\HW\9268_Overview_E.JPG with C:\Users\xxxx\Documents\github_projects\au662726_Ring_Luke\images\goodphotos\9268_Overview_E.JPG
+Replacing C:\Users\xxxx\Documents\github_projects\au662726_Ring_Luke\images\HW\9269_Overview_S.JPG with C:\Users\xxxx\Documents\github_projects\au662726_Ring_Luke\images\goodphotos\9269_Overview_S.JPG
+Replacing C:\Users\xxxx\Documents\github_projects\au662726_Ring_Luke\images\HW\9270_Overview_S.JPG with C:\Users\xxxx\Documents\github_projects\au662726_Ring_Luke\images\goodphotos\9270_Overview_S.JPG
+Replacing C:\Users\xxxx\Documents\github_projects\au662726_Ring_Luke\images\HW\9271_Overview_W.JPG with C:\Users\xxxx\Documents\github_projects\au662726_Ring_Luke\images\goodphotos\9271_Overview_W.JPG
+Replacing C:\Users\xxxx\Documents\github_projects\au662726_Ring_Luke\images\HW\9272_Overvieew_SE.JPG with C:\Users\xxxx\Documents\github_projects\au662726_Ring_Luke\images\goodphotos\9272_Overvieew_SE.JPG
+Replacing C:\Users\xxxx\Documents\github_projects\au662726_Ring_Luke\images\HW\9272_Overview_with_Dich_E.JPG with C:\Users\xxxx\Documents\github_projects\au662726_Ring_Luke\images\goodphotos\9272_Overview_with_Dich_E.JPG
+Replacing C:\Users\xxxx\Documents\github_projects\au662726_Ring_Luke\images\HW\9273_Overview_S.JPG with C:\Users\xxxx\Documents\github_projects\au662726_Ring_Luke\images\goodphotos\9273_Overview_S.JPG
+Replacing C:\Users\xxxx\Documents\github_projects\au662726_Ring_Luke\images\HW\9274_Overview_W.JPG with C:\Users\xxxx\Documents\github_projects\au662726_Ring_Luke\images\goodphotos\9274_Overview_W.JPG
+Replacing C:\Users\xxxx\Documents\github_projects\au662726_Ring_Luke\images\HW\9275_Overview_SW.JPG with C:\Users\xxxx\Documents\github_projects\au662726_Ring_Luke\images\goodphotos\9275_Overview_SW.JPG
+Replacing C:\Users\xxxx\Documents\github_projects\au662726_Ring_Luke\images\HW\9276_Overview_SW.JPG with C:\Users\xxxx\Documents\github_projects\au662726_Ring_Luke\images\goodphotos\9276_Overview_SW.JPG
+Replacing C:\Users\xxxx\Documents\github_projects\au662726_Ring_Luke\images\HW\9277_Overview_NW.JPG with C:\Users\xxxx\Documents\github_projects\au662726_Ring_Luke\images\goodphotos\9277_Overview_NW.JPG
+Replacing C:\Users\xxxx\Documents\github_projects\au662726_Ring_Luke\images\HW\9278_Overview_W.JPG with C:\Users\xxxx\Documents\github_projects\au662726_Ring_Luke\images\goodphotos\9278_Overview_W.JPG
+Replacing C:\Users\xxxx\Documents\github_projects\au662726_Ring_Luke\images\HW\9279_Overview_SW.JPG with C:\Users\xxxx\Documents\github_projects\au662726_Ring_Luke\images\goodphotos\9279_Overview_SW.JPG
+Replacing C:\Users\xxxx\Documents\github_projects\au662726_Ring_Luke\images\HW\9280_Overview_SW.JPG with C:\Users\xxxx\Documents\github_projects\au662726_Ring_Luke\images\goodphotos\9280_Overview_SW.JPG
+Replacing C:\Users\xxxx\Documents\github_projects\au662726_Ring_Luke\images\HW\9281_Overvierview_W.JPG with C:\Users\xxxx\Documents\github_projects\au662726_Ring_Luke\images\goodphotos\9281_Overvierview_W.JPG
+Replacing C:\Users\xxxx\Documents\github_projects\au662726_Ring_Luke\images\HW\9282_Overview_W.JPG with C:\Users\xxxx\Documents\github_projects\au662726_Ring_Luke\images\goodphotos\9282_Overview_W.JPG
+Replacing C:\Users\xxxx\Documents\github_projects\au662726_Ring_Luke\images\HW\9283_Overview_W.JPG with C:\Users\xxxx\Documents\github_projects\au662726_Ring_Luke\images\goodphotos\9283_Overview_W.JPG
+Replacing C:\Users\xxxx\Documents\github_projects\au662726_Ring_Luke\images\HW\9284_Overview_S.JPG with C:\Users\xxxx\Documents\github_projects\au662726_Ring_Luke\images\goodphotos\9284_Overview_S.JPG
+Replacing C:\Users\xxxx\Documents\github_projects\au662726_Ring_Luke\images\HW\9285_Overview_W.JPG with C:\Users\xxxx\Documents\github_projects\au662726_Ring_Luke\images\goodphotos\9285_Overview_W.JPG
+Replacing C:\Users\xxxx\Documents\github_projects\au662726_Ring_Luke\images\HW\9286_Overview_SW.JPG with C:\Users\xxxx\Documents\github_projects\au662726_Ring_Luke\images\goodphotos\9286_Overview_SW.JPG
+Replacing C:\Users\xxxx\Documents\github_projects\au662726_Ring_Luke\images\HW\9287_Overview_S.JPG with C:\Users\xxxx\Documents\github_projects\au662726_Ring_Luke\images\goodphotos\9287_Overview_S.JPG
+Replacing C:\Users\xxxx\Documents\github_projects\au662726_Ring_Luke\images\HW\9288_Overview_S.JPG with C:\Users\xxxx\Documents\github_projects\au662726_Ring_Luke\images\goodphotos\9288_Overview_S.JPG
+Replacing C:\Users\xxxx\Documents\github_projects\au662726_Ring_Luke\images\HW\9289_Overview_S.JPG with C:\Users\xxxx\Documents\github_projects\au662726_Ring_Luke\images\goodphotos\9289_Overview_S.JPG
+Replacing C:\Users\xxxx\Documents\github_projects\au662726_Ring_Luke\images\HW\9290_Overview_S.JPG with C:\Users\xxxx\Documents\github_projects\au662726_Ring_Luke\images\goodphotos\9290_Overview_S.JPG
+Replacing C:\Users\xxxx\Documents\github_projects\au662726_Ring_Luke\images\HW\9291_Overview_W.JPG with C:\Users\xxxx\Documents\github_projects\au662726_Ring_Luke\images\goodphotos\9291_Overview_W.JPG
+Replacing C:\Users\xxxx\Documents\github_projects\au662726_Ring_Luke\images\HW\9292_Overview_SE.JPG with C:\Users\xxxx\Documents\github_projects\au662726_Ring_Luke\images\goodphotos\9292_Overview_SE.JPG
+Replacing C:\Users\xxxx\Documents\github_projects\au662726_Ring_Luke\images\HW\9293_Overview_NW.JPG with C:\Users\xxxx\Documents\github_projects\au662726_Ring_Luke\images\goodphotos\9293_Overview_NW.JPG
+Replacing C:\Users\xxxx\Documents\github_projects\au662726_Ring_Luke\images\HW\9301_Overview_S.JPG with C:\Users\xxxx\Documents\github_projects\au662726_Ring_Luke\images\goodphotos\9301_Overview_S.JPG
+Replacing C:\Users\xxxx\Documents\github_projects\au662726_Ring_Luke\images\HW\9302_overview_N.JPG with C:\Users\xxxx\Documents\github_projects\au662726_Ring_Luke\images\goodphotos\9302_overview_N.JPG
+Replacing C:\Users\xxxx\Documents\github_projects\au662726_Ring_Luke\images\HW\9302_overview_W.JPG with C:\Users\xxxx\Documents\github_projects\au662726_Ring_Luke\images\goodphotos\9302_overview_W.JPG
+Replacing C:\Users\xxxx\Documents\github_projects\au662726_Ring_Luke\images\HW\9303_overview_W.JPG with C:\Users\xxxx\Documents\github_projects\au662726_Ring_Luke\images\goodphotos\9303_overview_W.JPG
+Replacing C:\Users\xxxx\Documents\github_projects\au662726_Ring_Luke\images\HW\9304_overview_pool.JPG with C:\Users\xxxx\Documents\github_projects\au662726_Ring_Luke\images\goodphotos\9304_overview_pool.JPG
+Replacing C:\Users\xxxx\Documents\github_projects\au662726_Ring_Luke\images\HW\9304_overview_W.JPG with C:\Users\xxxx\Documents\github_projects\au662726_Ring_Luke\images\goodphotos\9304_overview_W.JPG
+Replacing C:\Users\xxxx\Documents\github_projects\au662726_Ring_Luke\images\HW\9305_overview_RT.JPG with C:\Users\xxxx\Documents\github_projects\au662726_Ring_Luke\images\goodphotos\9305_overview_RT.JPG
+Replacing C:\Users\xxxx\Documents\github_projects\au662726_Ring_Luke\images\HW\9305_overview_S.JPG with C:\Users\xxxx\Documents\github_projects\au662726_Ring_Luke\images\goodphotos\9305_overview_S.JPG
+Replacing C:\Users\xxxx\Documents\github_projects\au662726_Ring_Luke\images\HW\9306_overview_S.JPG with C:\Users\xxxx\Documents\github_projects\au662726_Ring_Luke\images\goodphotos\9306_overview_S.JPG
+Replacing C:\Users\xxxx\Documents\github_projects\au662726_Ring_Luke\images\HW\9306_ovrview_N.JPG with C:\Users\xxxx\Documents\github_projects\au662726_Ring_Luke\images\goodphotos\9306_ovrview_N.JPG
+Replacing C:\Users\xxxx\Documents\github_projects\au662726_Ring_Luke\images\HW\9307_overview_S.JPG with C:\Users\xxxx\Documents\github_projects\au662726_Ring_Luke\images\goodphotos\9307_overview_S.JPG
+Replacing C:\Users\xxxx\Documents\github_projects\au662726_Ring_Luke\images\HW\9308_overview_E.JPG with C:\Users\xxxx\Documents\github_projects\au662726_Ring_Luke\images\goodphotos\9308_overview_E.JPG
+Replacing C:\Users\xxxx\Documents\github_projects\au662726_Ring_Luke\images\HW\9309_overview_W.JPG with C:\Users\xxxx\Documents\github_projects\au662726_Ring_Luke\images\goodphotos\9309_overview_W.JPG
+Replacing C:\Users\xxxx\Documents\github_projects\au662726_Ring_Luke\images\HW\9310_overview_S.JPG with C:\Users\xxxx\Documents\github_projects\au662726_Ring_Luke\images\goodphotos\9310_overview_S.JPG
+Replacing C:\Users\xxxx\Documents\github_projects\au662726_Ring_Luke\images\HW\9311_overview_RT_W.JPG with C:\Users\xxxx\Documents\github_projects\au662726_Ring_Luke\images\goodphotos\9311_overview_RT_W.JPG
+Replacing C:\Users\xxxx\Documents\github_projects\au662726_Ring_Luke\images\HW\9311_overview_W.JPG with C:\Users\xxxx\Documents\github_projects\au662726_Ring_Luke\images\goodphotos\9311_overview_W.JPG
+Replacing C:\Users\xxxx\Documents\github_projects\au662726_Ring_Luke\images\HW\9312_overview_W.JPG with C:\Users\xxxx\Documents\github_projects\au662726_Ring_Luke\images\goodphotos\9312_overview_W.JPG
+Replacing C:\Users\xxxx\Documents\github_projects\au662726_Ring_Luke\images\HW\9313_overview_W.JPG with C:\Users\xxxx\Documents\github_projects\au662726_Ring_Luke\images\goodphotos\9313_overview_W.JPG
+Replacing C:\Users\xxxx\Documents\github_projects\au662726_Ring_Luke\images\HW\9314_overview_S.JPG with C:\Users\xxxx\Documents\github_projects\au662726_Ring_Luke\images\goodphotos\9314_overview_S.JPG
+Replacing C:\Users\xxxx\Documents\github_projects\au662726_Ring_Luke\images\HW\9315_overview_S.JPG with C:\Users\xxxx\Documents\github_projects\au662726_Ring_Luke\images\goodphotos\9315_overview_S.JPG
+Replacing C:\Users\xxxx\Documents\github_projects\au662726_Ring_Luke\images\HW\9316_overview_N.JPG with C:\Users\xxxx\Documents\github_projects\au662726_Ring_Luke\images\goodphotos\9316_overview_N.JPG
+Replacing C:\Users\xxxx\Documents\github_projects\au662726_Ring_Luke\images\HW\9317_overview_E.JPG with C:\Users\xxxx\Documents\github_projects\au662726_Ring_Luke\images\goodphotos\9317_overview_E.JPG
+Replacing C:\Users\xxxx\Documents\github_projects\au662726_Ring_Luke\images\HW\9318_overview_W.JPG with C:\Users\xxxx\Documents\github_projects\au662726_Ring_Luke\images\goodphotos\9318_overview_W.JPG
+Replacing C:\Users\xxxx\Documents\github_projects\au662726_Ring_Luke\images\HW\9319_overview_W.JPG with C:\Users\xxxx\Documents\github_projects\au662726_Ring_Luke\images\goodphotos\9319_overview_W.JPG
+Replacing C:\Users\xxxx\Documents\github_projects\au662726_Ring_Luke\images\HW\9320_overview_W.JPG with C:\Users\xxxx\Documents\github_projects\au662726_Ring_Luke\images\goodphotos\9320_overview_W.JPG
+Replacing C:\Users\xxxx\Documents\github_projects\au662726_Ring_Luke\images\HW\9321_overview_W.JPG with C:\Users\xxxx\Documents\github_projects\au662726_Ring_Luke\images\goodphotos\9321_overview_W.JPG
+Replacing C:\Users\xxxx\Documents\github_projects\au662726_Ring_Luke\images\HW\9321_RT(detail)_S.JPG with C:\Users\xxxx\Documents\github_projects\au662726_Ring_Luke\images\goodphotos\9321_RT(detail)_S.JPG
+Replacing C:\Users\xxxx\Documents\github_projects\au662726_Ring_Luke\images\HW\9322_overview1_S.JPG with C:\Users\xxxx\Documents\github_projects\au662726_Ring_Luke\images\goodphotos\9322_overview1_S.JPG
+Replacing C:\Users\xxxx\Documents\github_projects\au662726_Ring_Luke\images\HW\9322_overview2_S.JPG with C:\Users\xxxx\Documents\github_projects\au662726_Ring_Luke\images\goodphotos\9322_overview2_S.JPG
+Replacing C:\Users\xxxx\Documents\github_projects\au662726_Ring_Luke\images\HW\9322_RT(detail).JPG with C:\Users\xxxx\Documents\github_projects\au662726_Ring_Luke\images\goodphotos\9322_RT(detail).JPG
+Replacing C:\Users\xxxx\Documents\github_projects\au662726_Ring_Luke\images\HW\9323_overview_S.JPG with C:\Users\xxxx\Documents\github_projects\au662726_Ring_Luke\images\goodphotos\9323_overview_S.JPG
+Replacing C:\Users\xxxx\Documents\github_projects\au662726_Ring_Luke\images\HW\9324_overview_W.JPG with C:\Users\xxxx\Documents\github_projects\au662726_Ring_Luke\images\goodphotos\9324_overview_W.JPG
+Replacing C:\Users\xxxx\Documents\github_projects\au662726_Ring_Luke\images\HW\9325_overview_S.JPG with C:\Users\xxxx\Documents\github_projects\au662726_Ring_Luke\images\goodphotos\9325_overview_S.JPG
+Replacing C:\Users\xxxx\Documents\github_projects\au662726_Ring_Luke\images\HW\9326_overview_W.JPG with C:\Users\xxxx\Documents\github_projects\au662726_Ring_Luke\images\goodphotos\9326_overview_W.JPG
+Replacing C:\Users\xxxx\Documents\github_projects\au662726_Ring_Luke\images\HW\9327_overview_E.JPG with C:\Users\xxxx\Documents\github_projects\au662726_Ring_Luke\images\goodphotos\9327_overview_E.JPG
