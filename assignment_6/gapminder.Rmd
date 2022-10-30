@@ -311,7 +311,7 @@ for (cntry in unique(gapminder$country)) {
 }
 ```
 
-### Bonus: Similar, but using `tidyverse` and `ggplot2` (with default plotting options)
+### Bonus: Similar, but using `tidyverse` and `ggplot2`
 
 ```{r task3_bonus}
 # find countries starting with M, and mean life expectancy under 50
