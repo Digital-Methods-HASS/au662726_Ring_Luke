@@ -1,0 +1,372 @@
+---
+author: "Luke Ring"
+date: "`r format(Sys.time(), '%d %B, %Y')`"
+title: "CDS: Practicing Functions with Gapminder"
+output:
+  html_document:
+    css: gapminder.css
+    highlight: breezedark
+    theme: darkly
+    toc: yes
+    toc_depth: 2
+    # number_sections: true
+    #toc_float:
+    #  collapsed: yes
+    #  smooth_scroll: yes
+    fig_height: 7
+    fig_width: 10
+    fig_retina: 2
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+
+library(tidyverse)
+library(gapminder)
+library(ggthemes)
+
+```
+
+This is the assignment for Cultural Data Science, Week 43. Assignment 6.
+
+# Assignment
+
+Use the gapminder dataset from Week 43 to produce solutions to the three tasks below. 
+
+## Task 1: Defensive GDP Function
+
+> Define a defensive function that calculates the Gross Domestic Product of a nation from the data  available in the gapminder dataset. You can use the population and GDPpercapita columns for it. Using that function, calculate the GDP of Denmark in the following years: 1967, 1977, 1987, 1997, 2007, and 2017.
+
+First we define the function:
+
+```{r task1}
+# simple function to test if a value is interger-like
+is_wholenumber <- function(x) {
+    if (is.numeric(x) & x %% 1 == 0) {
+        return(TRUE)
+    } else {
+        return(FALSE)
+    }
+}
+
+# The main GDP calculation function
+gapminder_gdp <- function(for_country, for_year) {
+    # first check that country is a character
+    if (!is.character(for_country)) {
+        stop("country must be a character")
+    }
+
+    # then check that year is an integer
+    if (!is_wholenumber(for_year)) {
+        stop("year must be an integer")
+    }
+
+    # ensure dplyr is loaded
+    if (!require(dplyr)) {
+        stop(paste(
+            "dplyr is required to run this function.",
+            "Please install it with",
+            "install.packages('dplyr')"
+        ))
+    }
+
+    # make sure the gampnider dataset exists
+    if (!require(gapminder)) {
+        stop(paste(
+            "Gapminder package not available,",
+            "you can install by running",
+            'install.packages("gapminder")'
+        ))
+    }
+
+    # make the country and gapminder countries lowercase
+    # to avoid case sensitivity issues
+    country_orig <- for_country
+    for_country <- tolower(for_country)
+    levels(gapminder$country) <- tolower(levels(gapminder$country))
+
+    # check that the country is in the gapminder dataset
+    if (!for_country %in% gapminder$country) {
+        stop(paste(
+            "Country",
+            country_orig,
+            "not found in gapminder dataset,",
+            "please check the spelling of the country"
+        ))
+    }
+
+    # check that the year is in the gapminder dataset
+    if (!for_year %in% gapminder[gapminder$country == for_country, ]$year) {
+        # we can report available range of years for the country
+        # to help the user
+        years <- gapminder %>%
+            filter(country == for_country) %>%
+            pull(year)
+        stop(paste(
+            "Year",
+            for_year,
+            "not found in gapminder dataset for",
+            paste0(country_orig, "."),
+            "\nPlease ensure the year is between",
+            min(years), "and", paste0(max(years), ".")
+        ))
+    }
+
+    # calculate the GDP
+    gdp <- gapminder %>%
+        filter(country == for_country, year == for_year) %>%
+        mutate(gdp = pop * gdpPercap) %>%
+        pull(gdp)
+
+    # return the GDP
+    return(gdp)
+}
+```
+
+Now we can test the function output for the years requested:
+
+```{r task1_test}
+# test the function
+test_country <- "Denmark"
+test_years <- c(1967, 1977, 1987, 1997, 2007, 2017)
+
+# loop through the years and print the results
+for (test_year in test_years) {
+    # get the GDP for the country and year
+    tryCatch({
+        gdp <- gapminder_gdp(test_country, test_year)
+        # print the results
+        print(paste(
+            "The GDP of",
+            test_country,
+            "in",
+            test_year,
+            "was",
+            scales::label_dollar(prefix = "US$")(gdp)
+        ))
+    }, error = function(e) {
+        # print the error message
+        print(e)
+    })
+}
+```
+
+We can see that the output shows the GDP for all the years except for 2017, which is not in the dataset. In this case an error is thrown which stops execution. This means you can't accidentally get strange results from the function, or if you try to do something that isn't possible, it will not just silently continue, but will let you know immediately, allowing you to fix the issue.
+
+In the test examples above, we have a `try / catch` block which allows us to continue our script / Rmd knitting even if there is an error, this is fine for testing but you would not want to do that with real data unless you are absolutely sure that you don't care about data that couldn't be found.
+
+## Task 2: Life Expectancy for countries starting with "B"
+
+> Write a script that loops over each country in the gapminder dataset, tests whether the country starts with a 'B' , and prints out whether the life expectancy is smaller than 50, between 50 and 70, or greater than 70. (Hint: remember the grepl function, and review the Control Flow tutorial)
+
+```{r task2}
+# loop through the countries
+for (cntry in unique(gapminder$country)) {
+    # test if the country starts with a B
+    if (!grepl("^B", cntry)) {
+        # if not, skip to the next country
+        next
+    }
+
+    # get the life expectancy
+    life_expectancy <- gapminder %>%
+        filter(country == cntry) %>%
+        pull(lifeExp)
+
+    # calculate the mean life expectancy for the years found
+    mean_life_expectancy <- mean(life_expectancy, na.rm = TRUE)
+
+    # get the range of years
+    years <- gapminder %>%
+        filter(country == cntry) %>%
+        pull(year)
+
+    # print the results
+    print(paste(
+        "The mean life expectancy for",
+        cntry,
+        "from",
+        min(years), "to", max(years),
+        "was: "
+    ))
+
+    # test the life expectancy
+    if (mean_life_expectancy < 50) {
+        print(paste("less than 50 years"))
+    } else if (mean_life_expectancy >= 50 & mean_life_expectancy <= 70) {
+        print(paste("between 50 and 70 years"))
+    } else {
+        print(paste("greater than 70 years"))
+    }
+}
+```
+
+### Bonus: the same, but using `tidyverse`
+
+```{r task2_bonus}
+# find countries starting with B, and get the mean life expectancy
+gapminder %>%
+    filter(grepl("^B", country)) %>%
+    group_by(country) %>%
+    summarise(
+        mean_life_expectancy = mean(lifeExp, na.rm = TRUE),
+        years = paste0(min(year), "-", max(year))
+    ) %>%
+    mutate(
+        life_expectancy = case_when(
+            mean_life_expectancy < 50 ~ "less than 50 years",
+            mean_life_expectancy >= 50 &
+                mean_life_expectancy <= 70 ~ "between 50 and 70 years",
+            TRUE ~ "greater than 70 years"
+        )
+    ) %>%
+    select(country, years, life_expectancy) %>%
+    print(n = Inf)
+```
+
+## Task 3: Plot `life expectancy/time` for countries starting with "M"
+
+> Challenge/Optional: Write a script that loops over each country in the gapminder dataset, tests whether the country starts with a 'M' and graphs life expectancy against time (using plot() function) as a line graph if the mean life expectancy is under 50 years.
+
+```{r task3}
+# loop through the countries
+for (cntry in unique(gapminder$country)) {
+    # test if the country starts with a M
+    if (!grepl("^M", cntry)) {
+        # if not, skip to the next country
+        next
+    }
+
+    # get the life expectancy
+    life_expectancy <- gapminder %>%
+        filter(country == cntry) %>%
+        pull(lifeExp)
+
+    # calculate the mean life expectancy for the years found
+    mean_life_expectancy <- mean(life_expectancy, na.rm = TRUE)
+
+    # test the life expectancy
+    if (mean_life_expectancy < 50) {
+        # get the range of years
+        years <- gapminder %>%
+            filter(country == cntry) %>%
+            pull(year)
+        # plot the life expectancy and make it look nice
+        par(bg = "#121212")
+        plot(
+            years,
+            life_expectancy,
+            type = "l", # line plot
+            col = "#f0afff", # line color
+            lwd = 2, # line width
+            cex = 1.2, # label size multiplier
+            xlab = "",
+            ylab = "",
+            axes = FALSE,
+            ann = FALSE,
+            oma = c(2, 3, 5, 2) # outer margins, b, l, t, r
+        )
+        # add title
+        mtext(
+            side = 3,
+            line = 2,
+            at = min(years) - 4,
+            adj = 0,
+            cex = 1.5,
+            col = "#ececec",
+            paste("Life Expectancy for", cntry),
+            font = 2 # bold the title
+        )
+        # add subtitle
+        mtext(side = 3,
+            line = 0.75,
+            at = min(years) - 4,
+            adj = 0,
+            cex = 1,
+            col = "#ececec",
+            paste("From", min(years), "to", max(years)))
+        # add the axis labels
+        title(
+            xlab = "Year",
+            ylab = "Life Expectancy (years)",
+            col.lab = "#ececec",
+            mgp = c(2.5, 0.5, 0)
+        )
+        # add mean line
+        abline(h = mean_life_expectancy, col = "#ffffff67", lwd = 2, lty = 2)
+        # add mean life expectancy line label
+        text(
+            x = max(years) - 2,
+            y = mean_life_expectancy + 0.5,
+            labels = paste(
+                "Mean:",
+                round(mean_life_expectancy, 2)),
+            cex = 0.7,
+            col = "#ececec"
+        )
+        box(col = "#767676")
+        axis(1, col = "#767676", col.axis = "#ececec")
+        axis(2, col = "#767676", col.axis = "#ececec")
+    }
+}
+```
+
+### Bonus: Similar, but using `tidyverse` and `ggplot2` (with default plotting options)
+
+```{r task3_bonus}
+# find countries starting with M, and mean life expectancy under 50
+m_countries <- gapminder %>%
+    filter(grepl("^M", country)) %>%
+    group_by(country) %>%
+    summarise(
+        mean_life_expectancy = mean(lifeExp, na.rm = TRUE),
+        years = paste0(min(year), "-", max(year)),
+        year_min = min(year),
+        year_max = max(year)
+    ) %>%
+    filter(mean_life_expectancy < 50) %>%
+    select(country, years, mean_life_expectancy, year_min, year_max)
+
+# print the countries found and their mean life expectancy
+print(m_countries, n = Inf)
+
+
+# plot the life expectancy (using facet wrap)
+gapminder %>%
+    filter(country %in% m_countries$country) %>%
+    ggplot(aes(x = year, y = lifeExp, color = country)) +
+    geom_line() +
+    # add mean life expectancy line
+    geom_hline(
+        data = m_countries,
+        aes(yintercept = mean_life_expectancy),
+        linetype = "dashed",
+        color = "white",
+        alpha = 0.5
+    ) +
+    # add mean life expectancy line label
+    geom_text(
+        data = m_countries,
+        aes(
+            x = year_max,
+            y = mean_life_expectancy + 1,
+            label = paste("Mean:", round(mean_life_expectancy, 2))
+        ),
+        nudge_x = -2.5,
+        color = "white",
+        size = 2.25
+    ) +
+    theme_hc(style = "darkunica") +
+    theme(strip.background = element_rect(colour = "#00000000",
+                                        fill = "#00000065"),
+          strip.text = element_text(color = "#ececec")) +
+    facet_wrap(~ country, ncol = 2) +
+    labs(
+        title = "Life Expectancy for Countries Starting with M",
+        subtitle = "Mean Life Expectancy under 50 years",
+        x = "Year",
+        y = "Life Expectancy (years)"
+    )
+```
+
+
