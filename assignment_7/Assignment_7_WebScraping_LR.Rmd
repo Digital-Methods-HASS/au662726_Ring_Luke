@@ -1,0 +1,269 @@
+---
+title: "Scraping police-killing data with R"
+author: "Luke Ring"
+date: "`r format(Sys.time(), '%d %B, %Y')`"
+output:
+  html_document:
+    css: htmldoc.css
+    highlight: breezedark
+    theme: darkly
+    toc: yes
+    toc_depth: 2
+    fig_height: 7
+    fig_width: 10
+    fig_retina: 2
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Goal
+
+> Use the rvest library to scrape data of your interest (football statistics in Wikipedia?, gender representatives in different governments? global population by country in https://www.worldometers.info/world-population/population-by-country/ )
+
+I will look at the population changes since 1950 for the top 10 most populous countries in the world.
+
+# Solution
+First, install a handful of classic R packages and load their libraries:
+
+- `rvest` for web-scraping
+- `tidyverse` for data-wrangling, transformation and plots
+- `stringr` for string manipulation
+- `janitor` for clean headers that your OCD will love you for
+
+
+```{r libraries, warning=FALSE, message=FALSE}
+library(rvest)
+library(tidyverse)
+library(stringr)
+library(janitor)
+library(ggthemes)
+```
+
+
+## Scrape the data
+
+First we need to find the top 10 most populous countries.
+
+```{r url}
+url <- "https://www.worldometers.info/world-population/population-by-country/"
+# scrape the website
+parsed_html <- read_html(url)
+```
+
+```{r scrape-table}
+population_table <- parsed_html %>%
+  html_elements("table") %>%
+  html_table()
+
+# get the actual data from the table
+population_table <- population_table[[1]]
+
+# peek at the data
+head(population_table)
+
+# now limit to the top 10 countries
+population_table <- population_table[1:10, ]
+
+# give the headers nice names
+population_table <- population_table %>%
+  clean_names() %>%
+  rename(country = country_or_dependency, population = population_2020)
+
+# rename "number" column to "year" and set to 2020
+population_table <- population_table %>%
+  rename(year = number) %>%
+  mutate(year = 2020)
+
+# peek at the cleaned
+head(population_table)
+```
+
+Now we need to get the data for each of the top 10 countries.
+
+```{r scrape-data}
+
+add_country_col <- function(x) {
+  # extract data
+  x <- x %>%
+    magrittr::extract2(1) %>%
+    clean_names()
+  # now get current country name
+  country <- colnames(x)[13] %>%
+    str_remove("_global_rank")
+  # add country column
+  x <- x %>%
+    select(1:11) %>%
+    mutate(country = country)
+}
+
+# get the country names
+country_names <- population_table$country
+
+# for the links United States is US
+country_names <- str_replace(country_names, "United States", "US")
+
+# get the country links
+country_links <- country_names %>%
+  str_replace_all(" ", "-") %>%
+  str_replace_all("\\.", "") %>%
+  str_to_lower() %>%
+  paste0("https://www.worldometers.info/world-population/", ., "-population/")
+
+population_data_css_selector <- "table.table-list:first-of-type"
+
+# get the population data for each country, add the country name as a column and
+# combine into a single data frame, matching columns
+population_data <- country_links %>%
+  map(read_html) %>%
+  map(html_nodes, population_data_css_selector) %>%
+  map(html_table, convert = FALSE) %>%
+  map_df(add_country_col)
+
+# peek at the data
+head(population_data)
+
+replace_pct <- function(x) {
+  x <- str_replace_all(x, "%", "")
+  x <- str_replace_all(x, " ", "")
+  x <- as.numeric(x)
+}
+
+replace_thousands <- function(x) {
+  x <- str_replace_all(x, ",", "")
+  x <- as.numeric(x)
+}
+
+# now we can convert the data to numeric
+population_data <- population_data %>%
+  mutate_at(c("yearly_percent_change", "urban_pop_percent", "countrys_share_of_world_pop"), replace_pct)
+
+population_data <- population_data %>%
+  mutate_at(c("population", "yearly_change", "migrants_net", "median_age", "fertility_rate", "density_p_km2", "urban_population"), replace_thousands)
+
+population_data$year <- as.numeric(population_data$year)
+
+# replace u_s to united states
+population_data$country <- str_replace(population_data$country, "u_s", "united states")
+# make country names start with a capital letter
+population_data$country <- str_to_title(population_data$country)
+
+# peek at the data
+head(population_data)
+```
+
+### Write result to file
+
+Now we can write the data to a csv file.
+
+```{r write-to-csv}
+write_csv(population_data, "data/top10_country_historical_population_data.csv")
+```
+
+## Plot the data
+
+Now we can plot the data.
+
+```{r plot-data}
+# define colors
+country_colors <- c("#FF0000", "#FFA500", "#FFFF00", "#008000", "#0000FF", "#4B0082", "#EE82EE", "#6ccce9", "#808080", "#FFFFFF")
+
+# overall population
+population_data %>%
+  ggplot(aes(x = year, y = population, color = country)) +
+  geom_line() +
+  scale_color_manual(values = country_colors) +
+  labs(
+    title = "Population of the top 10 most populous countries in the world",
+    subtitle = "Data from https://www.worldometers.info/world-population/population-by-country/",
+    x = "Year",
+    y = "Population (millions)"
+  ) +
+  theme_hc(style = "darkunica") +
+  theme(legend.position = "bottom")
+
+# population growth
+population_data %>%
+  ggplot(aes(x = year, y = yearly_percent_change, color = country)) +
+  geom_line() +
+  scale_color_manual(values = country_colors) +
+  labs(
+    title = "Population growth of the top 10 most populous countries in the world",
+    subtitle = "Data from https://www.worldometers.info/world-population/population-by-country/",
+    x = "Year",
+    y = "Population growth (percent change)"
+  ) +
+  theme_hc(style = "darkunica") +
+  theme(legend.position = "bottom")
+
+# by share of world population
+population_data %>%
+  ggplot(aes(x = year, y = countrys_share_of_world_pop, color = country)) +
+  geom_line() +
+  scale_color_manual(values = country_colors) +
+  labs(
+    title = "Share of world population of the top 10 most populous countries in the world",
+    subtitle = "Data from https://www.worldometers.info/world-population/population-by-country/",
+    x = "Year",
+    y = "Share of world population (percent)"
+  ) +
+  theme_hc(style = "darkunica") +
+  theme(legend.position = "bottom")
+
+# by median age
+population_data %>%
+  ggplot(aes(x = year, y = median_age, color = country)) +
+  geom_line() +
+  scale_color_manual(values = country_colors) +
+  labs(
+    title = "Median age of the top 10 most populous countries in the world",
+    subtitle = "Data from https://www.worldometers.info/world-population/population-by-country/",
+    x = "Year",
+    y = "Median age (years)"
+  ) +
+  theme_hc(style = "darkunica") +
+  theme(legend.position = "bottom")
+
+# by fertility rate
+population_data %>%
+  ggplot(aes(x = year, y = fertility_rate, color = country)) +
+  geom_line() +
+  scale_color_manual(values = country_colors) +
+  labs(
+    title = "Fertility rate of the top 10 most populous countries in the world",
+    subtitle = "Data from https://www.worldometers.info/world-population/population-by-country/",
+    x = "Year",
+    y = "Fertility rate"
+  ) +
+  theme_hc(style = "darkunica") +
+  theme(legend.position = "bottom")
+
+# by density
+population_data %>%
+  ggplot(aes(x = year, y = density_p_km2, color = country)) +
+  geom_line() +
+  scale_color_manual(values = country_colors) +
+  labs(
+    title = "Density of the top 10 most populous countries in the world",
+    subtitle = "Data from https://www.worldometers.info/world-population/population-by-country/",
+    x = "Year",
+    y = "Density (people per km2)"
+  ) +
+  theme_hc(style = "darkunica") +
+  theme(legend.position = "bottom")
+
+# by urban population
+population_data %>%
+  ggplot(aes(x = year, y = urban_pop_percent, color = country)) +
+  geom_line() +
+  scale_color_manual(values = country_colors) +
+  labs(
+    title = "Urban population of the top 10 most populous countries in the world",
+    subtitle = "Data from https://www.worldometers.info/world-population/population-by-country/",
+    x = "Year",
+    y = "Urban population (percent)"
+  ) +
+  theme_hc(style = "darkunica") +
+  theme(legend.position = "bottom")
+```
