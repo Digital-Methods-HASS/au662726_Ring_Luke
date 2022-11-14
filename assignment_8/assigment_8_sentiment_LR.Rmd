@@ -513,7 +513,7 @@ got_top200 <- got_tokens %>%
 # Create a word cloud
 ggplot(data = got_top200, aes(label = word, size = n)) +
   geom_text_wordcloud_area(aes(color = n), shape = "diamond") +
-  scale_size_area(max_size = 30) +
+  scale_size_area(max_size = 20) +
   scale_color_gradientn(colors = c("#5d99e8", "#c683e1", "#f85a5a")) +
   theme_hc(style = "darkunica")
 
