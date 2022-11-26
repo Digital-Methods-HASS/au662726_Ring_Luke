@@ -1,0 +1,30 @@
+---
+title: 'Disaster Risk Mitigation: Population Factors'
+author: "Luke Ring (202209983)"
+date: "`r format(Sys.time(), '%d %B, %Y')`"
+output:
+  html_document:
+    css: htmldoc.css
+    highlight: breezedark
+    theme: darkly
+    toc: yes
+    toc_depth: 3
+    fig_height: 7
+    fig_width: 10
+    fig_retina: 2
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(
+  echo = TRUE,
+  warning = FALSE,
+  message = FALSE
+)
+
+library(tidyverse)
+
+data_dir <- "exam/data"
+```
+
+# Introduction
+
