@@ -1,30 +1,364 @@
 ---
-title: 'Disaster Risk Mitigation: Population Factors'
-author: "Luke Ring (202209983)"
-date: "`r format(Sys.time(), '%d %B, %Y')`"
+title: "Navigating the Storm: A Data-Driven Approach to Reducing the Impact of Natural Disasters"
+keywords: 
+    - Sonification
+    - Motion Capture
+    - Realtime
+    - Processing
+authors:
+- name: Luke Ring
+  affiliation: 1
+  student_id: 202009983
+  initials: LR
+  citation: "Ring, L."
+affiliations:
+- name: Aarhus University
+  index: 1
+abstract: "Placeholder: ..."
+date: "12 January 2023"
+submitted: "12 January 2023"
+degree: "BSc Cognitive Science"
+supervisor: "Adela..."
+faculty: "Faculty of Arts"
+university: "Aarhus University"
+course: "Cultural Data Science (xxxxxxx)"
+year: 2023
+bibliography:
+    - master.bib
+    - packages.bib
+biblio-title: References
+biblio-style: apa
+link-citations: true
+colorlinks: true
+urlcolor: NavyBlue
+linkcolor: Mulberry
+citecolor: BrickRed
+toccolor: Black
+# geometry: margin=2.5cm
+mainfont: georgia
+sansfont: calibri
+fontsize: 11pt
+spacing: double
+# set this to false when the document is ready for submission
+draft: true
+# set this to false if the last page or refs look bad
+aligncols: true
 output:
-  html_document:
-    css: htmldoc.css
-    highlight: breezedark
-    theme: darkly
-    toc: yes
-    toc_depth: 3
-    fig_height: 7
-    fig_width: 10
-    fig_retina: 2
+    bookdown::pdf_document2:
+        keep_tex: yes
+        extra_dependencies: ["flafter", "biblatex"]
+        latex_engine: xelatex 
+        citation_package: biblatex
+        toc: no
+        number_sections: yes
+        fig_caption: yes
+        template: templates/latex_template.tex
+csl: templates/apa7.csl
+repository: https\://github.com/Digital-Methods-HASS/au662726_Ring_Luke/tree/main/exam
+licensepath: https\://github.com/Digital-Methods-HASS/au662726_Ring_Luke/tree/main/exam/LICENSE.md
 ---
 
 ```{r setup, include=FALSE}
-knitr::opts_chunk$set(
-  echo = TRUE,
-  warning = FALSE,
-  message = FALSE
-)
+cache_dir <- "./.cache"
+data_dir <- "./data/processed"
+data_file <- "disasters_top_impacted_by_country.csv"
+main_dir <- "exam"
 
-library(tidyverse)
+# set working directory if it isn't the directory of this file
+wd <- getwd()
+wd_parent <- dirname(wd)
+if (basename(wd) != main_dir) {
+    wd_parent <- wd
+    wd <- paste0(wd, "/", main_dir)
+    setwd(wd)
+}
 
-data_dir <- "exam/data"
+options(knitr.graphics.auto_pdf = TRUE)
+options(knitr.table.format = "latex")
+knitr::opts_knit$set(root.dir = wd)
+knitr::opts_chunk$set(echo = FALSE)
+# this leaves all of the intermediate files in the dir if FALSE
+options(tinytex.clean = FALSE)
+# make verbose TRUE to help with debugging
+options(tinytex.verbose = FALSE)
+
+# set default cran mirror
+r <- getOption("repos")
+r["CRAN"] <- "https://mirrors.dotsrc.org/cran/" # Denmark
+options(repos = r)
+rm(r)
+
+# use this function to load packages to save manual installation
+use_package <- function(p) {
+    if (!is.element(p, installed.packages()[, 1]))
+        install.packages(p, dep = TRUE)
+    require(p, character.only = TRUE)
+}
+
+# add required packages
+use_package("kableExtra")
+use_package("bookdown")
+use_package("rticles")
+use_package("tidyverse")
+use_package("ggprism")
+use_package("ggbreak")
+use_package("conflicted")
+use_package("colorspace")
+use_package("rstanarm")
+options(mc.cores = parallel::detectCores())
+# define base palette
+colorblind_friendly_pal <- c("#0074e7", "#e7298a", "#8bcf00")
+# darker version
+colorblind_friendly_pal_dark <- darken(colorblind_friendly_pal, 0.5)
+# make it slightly less intense
+colorblind_friendly_pal <- lighten(colorblind_friendly_pal, 0.25)
+options(ggplot2.discrete.colour=colorblind_friendly_pal)
+options(ggplot2.discrete.fill=colorblind_friendly_pal)
+
+
+# after all the packages are loaded, we can save
+# a bibliography of all the packages used
+# in case we need to cite them
+knitr::write_bib(.packages(), "packages.bib")
+
 ```
 
-# Introduction
+# `r rmarkdown::metadata$title`
+
+
+# Background
+
+
+# Methods
+
+
+# Results
+
+
+# Discussion
+
+```{r analysis}
+# @todo: move
+
+# load the data
+disasters <- read_csv(paste0(data_dir, "/", data_file))
+n_rows <- nrow(disasters)
+
+# remove rows with no data
+disasters <- disasters %>%
+    dplyr::filter(
+        !(is.na(`Total Deaths`) &
+        is.na(`No Injured`) &
+        is.na(`No Affected`) &
+        is.na(`No Homeless`) &
+        is.na(`Total Affected`)))
+
+# 393 rows were removed
+removed_na_rows <- n_rows - nrow(disasters)
+
+# plot total deaths by year
+disasters %>%
+    group_by(Year) %>%
+    summarise(total_deaths = sum(`Total Deaths`, na.rm = TRUE)) %>%
+    ggplot(aes(x = Year, y = total_deaths)) +
+    geom_line() +
+    geom_point() +
+    scale_y_break(c(5e5, 1.5e6)) +
+    labs(x = "Year", y = "Total Deaths", title = "Total Deaths by Year") +
+    theme_prism()
+
+# plot total affected by year
+disasters %>%
+    group_by(Year) %>%
+    summarise(total_affected = sum(`Total Affected`, na.rm = TRUE)) %>%
+    ggplot(aes(x = Year, y = total_affected)) +
+    geom_line() +
+    geom_point() +
+    labs(x = "Year", y = "Total Affected", title = "Total Affected by Year") +
+    theme_prism()
+
+# plot frequency by year and `Disaster Type`
+disasters %>%
+    group_by(Year, `Disaster Type`) %>%
+    summarise(n = n()) %>%
+    ggplot(aes(x = Year, y = n, fill = `Disaster Type`)) +
+    geom_col() +
+    labs(x = "Year", y = "Frequency", title = "Frequency by Year and Disaster Type") +
+    theme_prism()
+
+# plot `Total Deaths` by year and `Disaster Type`
+disasters %>%
+    filter(`Disaster Type` != "Drought") %>%
+    group_by(Year, `Disaster Type`) %>%
+    summarise(n = sum(`Total Deaths`, na.rm = TRUE)) %>%
+    filter(`n` > 0) %>%
+    ggplot(aes(x = Year, y = n, fill = `Disaster Type`)) +
+    geom_col() +
+    labs(x = "Year", y = "Total Deaths", title = "Total Deaths by Year and Disaster Type") +
+    theme_prism()
+
+disasters_gdp <- disasters %>%
+    filter(`GDP per capita, PPP (constant 2017 international $) [NY.GDP.PCAP.PP.KD]` != "..") %>%
+    mutate(`GDP per capita, PPP (constant 2017 international $) [NY.GDP.PCAP.PP.KD]` =
+    as.numeric(`GDP per capita, PPP (constant 2017 international $) [NY.GDP.PCAP.PP.KD]`))
+
+# plot GDP by number affected
+disasters_gdp %>%
+    group_by(`Disaster Type`) %>%
+    ggplot(aes(
+        x = `Total Affected`,
+        y = `GDP per capita, PPP (constant 2017 international $) [NY.GDP.PCAP.PP.KD]`,
+        color = `Disaster Type`)) +
+    geom_point() +
+    labs(x = "Total Affected", y = "GDP per capita", title = "GDP by Total Affected") +
+    theme_prism()
+
+# plot GDP by Affected_pct
+disasters_gdp %>%
+    group_by(`Disaster Type`) %>%
+    ggplot(aes(
+        x = `Affected_pct`,
+        y = `GDP per capita, PPP (constant 2017 international $) [NY.GDP.PCAP.PP.KD]`,
+        color = `Disaster Type`)) +
+    geom_point() +
+    labs(x = "Affected_pct", y = "GDP per capita", title = "GDP by Affected_pct") +
+    theme_prism()
+
+# plot GDP by `Total Deaths`
+disasters_gdp %>%
+    group_by(`Disaster Type`) %>%
+    ggplot(aes(
+        x = `Total Deaths`,
+        y = `GDP per capita, PPP (constant 2017 international $) [NY.GDP.PCAP.PP.KD]`,
+        color = `Disaster Type`)) +
+    geom_point() +
+    labs(x = "Total Deaths", y = "GDP per capita", title = "GDP by Total Deaths") +
+    theme_prism()
+
+# plot GDP by Deaths_pct
+disasters_gdp %>%
+    group_by(`Disaster Type`) %>%
+    ggplot(aes(
+        x = `Deaths_pct`,
+        y = `GDP per capita, PPP (constant 2017 international $) [NY.GDP.PCAP.PP.KD]`,
+        color = `Disaster Type`)) +
+    geom_point() +
+    labs(x = "Deaths_pct", y = "GDP per capita", title = "GDP by Deaths_pct") +
+    theme_prism()
+
+# plot  `Current health expenditure (% of GDP) [SH.XPD.CHEX.GD.ZS]` by `Total Deaths`
+
+disasters_hce <- disasters %>%
+    filter(`Current health expenditure (% of GDP) [SH.XPD.CHEX.GD.ZS]` != "..") %>%
+    mutate(`Current health expenditure (% of GDP) [SH.XPD.CHEX.GD.ZS]` =
+        as.numeric(`Current health expenditure (% of GDP) [SH.XPD.CHEX.GD.ZS]`))
+
+
+disasters_hce %>%
+    group_by(`Disaster Type`) %>%
+    ggplot(aes(
+        x = `Total Deaths`,
+        y = `Current health expenditure (% of GDP) [SH.XPD.CHEX.GD.ZS]`,
+        color = `Disaster Type`)) +
+    geom_point() +
+    labs(x = "Total Deaths", y = "Current health expenditure (% of GDP)", title = "Current health expenditure (% of GDP) by Total Deaths") +
+    theme_prism()
+
+# plot  `Current health expenditure (% of GDP) [SH.XPD.CHEX.GD.ZS]` by `Deaths_pct`
+
+disasters_hce %>%
+    group_by(`Disaster Type`) %>%
+    ggplot(aes(
+        x = `Deaths_pct`,
+        y = `Current health expenditure (% of GDP) [SH.XPD.CHEX.GD.ZS]`,
+        color = `Disaster Type`)) +
+    geom_point() +
+    labs(x = "Deaths_pct", y = "Current health expenditure (% of GDP)", title = "Current health expenditure (% of GDP) by Deaths_pct") +
+    theme_prism()
+
+disasters_mil <- disasters %>%
+    filter(`Military expenditure (% of GDP) [MS.MIL.XPND.GD.ZS]` != "..") %>%
+    mutate(`Military expenditure (% of GDP) [MS.MIL.XPND.GD.ZS]` =
+        as.numeric(`Military expenditure (% of GDP) [MS.MIL.XPND.GD.ZS]`))
+
+# plot  `Military expenditure (% of GDP) [MS.MIL.XPND.GD.ZS]` by `Total Deaths`
+
+disasters_mil %>%
+    group_by(`Disaster Type`) %>%
+    ggplot(aes(
+        x = `Total Deaths`,
+        y = `Military expenditure (% of GDP) [MS.MIL.XPND.GD.ZS]`,
+        color = `Disaster Type`)) +
+    geom_point() +
+    labs(x = "Total Deaths", y = "Military expenditure (% of GDP)", title = "Military expenditure (% of GDP) by Total Deaths") +
+    theme_prism()
+
+# plot  `Military expenditure (% of GDP) [MS.MIL.XPND.GD.ZS]` by `Deaths_pct`
+
+disasters_mil %>%
+    group_by(`Disaster Type`) %>%
+    ggplot(aes(
+        x = `Deaths_pct`,
+        y = `Military expenditure (% of GDP) [MS.MIL.XPND.GD.ZS]`,
+        color = `Disaster Type`)) +
+    geom_point() +
+    labs(x = "Deaths_pct", y = "Military expenditure (% of GDP)", title = "Military expenditure (% of GDP) by Deaths_pct") +
+    theme_prism()
+
+# plot `Population density (people per sq. km of land area) [EN.POP.DNST]` by `Total Deaths`
+disasters_pop <- disasters %>%
+    filter(`Population density (people per sq. km of land area) [EN.POP.DNST]` != "..") %>%
+    mutate(`Population density (people per sq. km of land area) [EN.POP.DNST]` =
+        as.numeric(`Population density (people per sq. km of land area) [EN.POP.DNST]`))
+
+disasters_pop %>%
+    group_by(`Disaster Type`) %>%
+    ggplot(aes(
+        x = `Total Deaths`,
+        y = `Population density (people per sq. km of land area) [EN.POP.DNST]`,
+        color = `Disaster Type`)) +
+    geom_point() +
+    labs(x = "Total Deaths", y = "Population density (people per sq. km of land area)", title = "Population density (people per sq. km of land area) by Total Deaths") +
+    theme_prism()
+
+# plot `Population density (people per sq. km of land area) [EN.POP.DNST]` by `Deaths_pct`
+
+disasters_pop %>%
+    group_by(`Disaster Type`) %>%
+    ggplot(aes(
+        x = `Deaths_pct`,
+        y = `Population density (people per sq. km of land area) [EN.POP.DNST]`,
+        color = `Disaster Type`)) +
+    geom_point() +
+    labs(x = "Deaths_pct", y = "Population density (people per sq. km of land area)", title = "Population density (people per sq. km of land area) by Deaths_pct") +
+    theme_prism()
+
+disasters %>%
+    arrange(desc(`Deaths_pct`)) %>%
+    head(10) %>%
+    select(Year, Country, `Disaster Type`, `Total Deaths`, `Deaths_pct`, Population)
+
+disasters_analysis <- disasters %>%
+    dplyr::filter(
+        `Current health expenditure (% of GDP) [SH.XPD.CHEX.GD.ZS]` != ".." & !is.na(`Current health expenditure (% of GDP) [SH.XPD.CHEX.GD.ZS]`),
+        `Military expenditure (% of GDP) [MS.MIL.XPND.GD.ZS]` != ".." & !is.na(`Military expenditure (% of GDP) [MS.MIL.XPND.GD.ZS]`),
+        `Population density (people per sq. km of land area) [EN.POP.DNST]` != ".." & !is.na(`Population density (people per sq. km of land area) [EN.POP.DNST]`),
+        `GDP per capita, PPP (constant 2017 international $) [NY.GDP.PCAP.PP.KD]` != ".." & !is.na(`GDP per capita, PPP (constant 2017 international $) [NY.GDP.PCAP.PP.KD]`)) %>%
+    mutate(
+        current_health_expenditure_gdp = as.numeric(`Current health expenditure (% of GDP) [SH.XPD.CHEX.GD.ZS]`),
+        military_expenditure_gdp = as.numeric(`Military expenditure (% of GDP) [MS.MIL.XPND.GD.ZS]`),
+        population_density = as.numeric(`Population density (people per sq. km of land area) [EN.POP.DNST]`),
+        gdp_per_capita_ppp = as.numeric(`GDP per capita, PPP (constant 2017 international $) [NY.GDP.PCAP.PP.KD]`),
+        disaster_type = as.factor(`Disaster Type`),
+        total_deaths = as.numeric(`Total Deaths`),
+        deaths_pct = as.numeric(`Deaths_pct`)) %>% 
+        select(Year, Country, disaster_type, total_deaths, deaths_pct, current_health_expenditure_gdp, military_expenditure_gdp, population_density, gdp_per_capita_ppp)
+
+
+
+m1 <- stan_glmer(total_deaths ~ disaster_type + gdp_per_capita_ppp + current_health_expenditure_gdp + population_density + (1|disaster_type) + (1|Country), data = disasters_analysis, family = gaussian)
+
+```
+
+<div id="refs"></div>
 

@@ -1,0 +1,10 @@
+*.aux
+*.bcf
+*.blg
+*.log
+*.out
+*.run.xml
+*.toc
+*.knit.md
+.cache/*
+emdat_public_*.tsv
