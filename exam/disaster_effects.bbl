@@ -16,5 +16,1910 @@
   {}
 \endgroup
 
+
+\refsection{0}
+  \datalist[entry]{apa/apasortcite//global/global}
+    \entry{alexanderGlobalObservedLongterm2016}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=36d4e71c755d93874a410b3334e2498f}{%
+           family={Alexander},
+           familyi={A\bibinitperiod},
+           given={Lisa\bibnamedelima V.},
+           giveni={L\bibinitperiod\bibinitdelim V\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{36d4e71c755d93874a410b3334e2498f}
+      \strng{fullhash}{36d4e71c755d93874a410b3334e2498f}
+      \strng{bibnamehash}{36d4e71c755d93874a410b3334e2498f}
+      \strng{authorbibnamehash}{36d4e71c755d93874a410b3334e2498f}
+      \strng{authornamehash}{36d4e71c755d93874a410b3334e2498f}
+      \strng{authorfullhash}{36d4e71c755d93874a410b3334e2498f}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{issn}{22120947}
+      \field{journaltitle}{Weather and Climate Extremes}
+      \field{langid}{english}
+      \field{month}{3}
+      \field{shortjournal}{Weather and Climate Extremes}
+      \field{shorttitle}{Global Observed Long-Term Changes in Temperature and Precipitation Extremes}
+      \field{title}{Global Observed Long-Term Changes in Temperature and Precipitation Extremes: {{A}} Review of Progress and Limitations in {{IPCC}} Assessments and Beyond}
+      \field{urlday}{12}
+      \field{urlmonth}{1}
+      \field{urlyear}{2023}
+      \field{volume}{11}
+      \field{year}{2016}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{4\bibrangedash 16}
+      \range{pages}{13}
+      \verb{doi}
+      \verb 10.1016/j.wace.2015.10.007
+      \endverb
+      \verb{file}
+      \verb X\:\\OneDrive - Aarhus Universitet\\ZoteroArticleStore\\Weather and Climate Extremes2016\\Alexander_2016_Global observed long-term changes in temperature and precipitation extremes.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://linkinghub.elsevier.com/retrieve/pii/S2212094715300414
+      \endverb
+      \verb{url}
+      \verb https://linkinghub.elsevier.com/retrieve/pii/S2212094715300414
+      \endverb
+    \endentry
+    \entry{bankoffTimeEssenceDisasters2004}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=cbc8018987c000b8a8bbe71f3923fadf}{%
+           family={Bankoff},
+           familyi={B\bibinitperiod},
+           given={Greg},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{cbc8018987c000b8a8bbe71f3923fadf}
+      \strng{fullhash}{cbc8018987c000b8a8bbe71f3923fadf}
+      \strng{bibnamehash}{cbc8018987c000b8a8bbe71f3923fadf}
+      \strng{authorbibnamehash}{cbc8018987c000b8a8bbe71f3923fadf}
+      \strng{authornamehash}{cbc8018987c000b8a8bbe71f3923fadf}
+      \strng{authorfullhash}{cbc8018987c000b8a8bbe71f3923fadf}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{As an historian whose interests lie in both contemporary disaster practice as well the historical roots of vulnerability, I have become increasingly intrigued by the manner in which the proponents of these two ‘fields’ approach the question of time in relation to disasters. Needless to say these actors regard it very differently. Social scientists (and here I include mainly sociologists, anthropologists and human geographers) largely pay lip service to its importance, at best mentioning its relevance en passant but giving historical analysis and specific historical example little real consideration in the greater scheme of things. At the same time, though, they place inordinate emphasis on the importance of ‘process’ as the basis upon which their understanding of what turns a natural hazard into a disaster depends. The concept of vulnerability is proposed as the key to understanding how social systems generate unequal exposure to risk by making some people more prone to disaster than others, a condition that is largely a function of the power relations operative in each society (Cannon 1994:14–15, 19; Wisner 1993:131–133). Vulnerability to historians, on the other hand, is not even really a conceptual term and, when used at all, usually indicates a state of being not a condition derivative of historical processes. Above all, disasters are primarily ‘events’ caused by a combination of seismological, meteorological or epidemiological agents (occasionally war is seen in this context as well) 2 that have certain detrimental physical and socioeconomic consequences. At their most extreme, they may even cause the downfall of societies. However, they are rarely integrated into any wider theoretical perspective (Ambraseys 1971; Landsberg 1980). Though both social scientists and historians may talk about disasters, they are not necessarily talking about the same thing: the one sees disasters as primarily a historical processes (or processes set within recent temporal parameters), the other as non-sequential historical events. This is unfortunate because primarily disasters are both historical processes and sequential events. If this assertion sounds rather convoluted, I trust the following discussion will make the distinction somewhat clearer though no amount of clarification is really sufficient to adequately address this question. Instead, I intend what I say more as ‘a line of thinking in progress’ than ‘a work in progress’.}
+      \field{issn}{0280-7270, 2753-5703}
+      \field{journaltitle}{International Journal of Mass Emergencies \& Disasters}
+      \field{langid}{english}
+      \field{month}{11}
+      \field{number}{3}
+      \field{shortjournal}{International Journal of Mass Emergencies \& Disasters}
+      \field{shorttitle}{Time Is of the {{Essence}}}
+      \field{title}{Time Is of the {{Essence}}: {{Disasters}}, {{Vulnerability}} and {{History}} {\textsuperscript{1}}}
+      \field{urlday}{12}
+      \field{urlmonth}{1}
+      \field{urlyear}{2023}
+      \field{volume}{22}
+      \field{year}{2004}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{23\bibrangedash 42}
+      \range{pages}{20}
+      \verb{doi}
+      \verb 10.1177/028072700402200303
+      \endverb
+      \verb{urlraw}
+      \verb http://journals.sagepub.com/doi/10.1177/028072700402200303
+      \endverb
+      \verb{url}
+      \verb http://journals.sagepub.com/doi/10.1177/028072700402200303
+      \endverb
+    \endentry
+    \entry{R-lme4}{manual}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=291c4bc67cf41a2019405a2328a9b75e}{%
+           family={Bates},
+           familyi={B\bibinitperiod},
+           given={Douglas},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0041cc0eb4aa28929ffbd059d5e4add5}{%
+           family={Maechler},
+           familyi={M\bibinitperiod},
+           given={Martin},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d6b13be971f13ee03cc83cded41b6d7e}{%
+           family={Bolker},
+           familyi={B\bibinitperiod},
+           given={Ben},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=666afa7867ec142c4a63a819a19244f9}{%
+           family={Walker},
+           familyi={W\bibinitperiod},
+           given={Steven},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{d09b320744f09c093eb8b0d7f6bbdda0}
+      \strng{fullhash}{7fb4c5e907b1e55e95b530d5388bd764}
+      \strng{bibnamehash}{7fb4c5e907b1e55e95b530d5388bd764}
+      \strng{authorbibnamehash}{7fb4c5e907b1e55e95b530d5388bd764}
+      \strng{authornamehash}{d09b320744f09c093eb8b0d7f6bbdda0}
+      \strng{authorfullhash}{7fb4c5e907b1e55e95b530d5388bd764}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{R package version 1.1-32}
+      \field{title}{lme4: Linear Mixed-Effects Models using Eigen and S4}
+      \field{year}{2022}
+      \verb{urlraw}
+      \verb https://github.com/lme4/lme4/
+      \endverb
+      \verb{url}
+      \verb https://github.com/lme4/lme4/
+      \endverb
+    \endentry
+    \entry{comfortIgnoredBannerStory2019}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=076b1976bfb5a145632c93904b884c8d}{%
+           family={Comfort},
+           familyi={C\bibinitperiod},
+           given={Suzannah\bibnamedelima Evans},
+           giveni={S\bibinitperiod\bibinitdelim E\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{076b1976bfb5a145632c93904b884c8d}
+      \strng{fullhash}{076b1976bfb5a145632c93904b884c8d}
+      \strng{bibnamehash}{076b1976bfb5a145632c93904b884c8d}
+      \strng{authorbibnamehash}{076b1976bfb5a145632c93904b884c8d}
+      \strng{authornamehash}{076b1976bfb5a145632c93904b884c8d}
+      \strng{authorfullhash}{076b1976bfb5a145632c93904b884c8d}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{The hierarchy of influences model has been used to examine sociological influences on journalistic output originating from both inside and outside the newsroom. While providing useful snapshots of journalistic practice, studies using the hierarchical model have rarely accounted for changes in newsgathering over time. This study examines the emergence of climate journalism in the Philippines, one of the most vulnerable nations to the effects of climate change. Drawing on interviews with Filipino journalists, it finds that journalists struggled to place climate-related stories until after extreme weather events, particularly Typhoon Haiyan in 2013. News articles about climate change continued to grow in the following years, suggesting that a fundamental shift in the newsworthiness of climate change took place.}
+      \field{issn}{1464-8849, 1741-3001}
+      \field{journaltitle}{Journalism}
+      \field{langid}{english}
+      \field{month}{12}
+      \field{number}{12}
+      \field{shortjournal}{Journalism}
+      \field{shorttitle}{From Ignored to Banner Story}
+      \field{title}{From Ignored to Banner Story: {{The}} Role of Natural Disasters in Influencing the Newsworthiness of Climate Change in the {{Philippines}}}
+      \field{urlday}{11}
+      \field{urlmonth}{1}
+      \field{urlyear}{2023}
+      \field{volume}{20}
+      \field{year}{2019}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{1630\bibrangedash 1647}
+      \range{pages}{18}
+      \verb{doi}
+      \verb 10.1177/1464884917727426
+      \endverb
+      \verb{urlraw}
+      \verb http://journals.sagepub.com/doi/10.1177/1464884917727426
+      \endverb
+      \verb{url}
+      \verb http://journals.sagepub.com/doi/10.1177/1464884917727426
+      \endverb
+    \endentry
+    \entry{cred/uclouvainEMDATInternationalDisaster2023}{dataset}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=256db882099477eab04d50171cc3b1f7}{%
+           family={{CRED/UCLouvain}},
+           familyi={C\bibinitperiod}}}%
+      }
+      \strng{namehash}{256db882099477eab04d50171cc3b1f7}
+      \strng{fullhash}{256db882099477eab04d50171cc3b1f7}
+      \strng{bibnamehash}{256db882099477eab04d50171cc3b1f7}
+      \strng{authorbibnamehash}{256db882099477eab04d50171cc3b1f7}
+      \strng{authornamehash}{256db882099477eab04d50171cc3b1f7}
+      \strng{authorfullhash}{256db882099477eab04d50171cc3b1f7}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{{EM-DAT}}: The {{International Disaster Database}}}
+      \field{urlday}{4}
+      \field{urlmonth}{1}
+      \field{urlyear}{2023}
+      \field{year}{2023}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.emdat.be/
+      \endverb
+      \verb{url}
+      \verb https://www.emdat.be/
+      \endverb
+    \endentry
+    \entry{eriksenRethinkingInterplayAffluence2020}{article}{}
+      \name{author}{14}{}{%
+        {{un=0,uniquepart=base,hash=2c1c2361fc5dae094e991bf029c70262}{%
+           family={Eriksen},
+           familyi={E\bibinitperiod},
+           given={Christine},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=13e92b6c93ac88e0d577df2534a8d9c3}{%
+           family={Simon},
+           familyi={S\bibinitperiod},
+           given={Gregory\bibnamedelima L.},
+           giveni={G\bibinitperiod\bibinitdelim L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0298e1da07bc8b60037abf8004ae587d}{%
+           family={Roth},
+           familyi={R\bibinitperiod},
+           given={Florian},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=987dafffd10a05fe44198c468c93d139}{%
+           family={Lakhina},
+           familyi={L\bibinitperiod},
+           given={Shefali\bibnamedelima Juneja},
+           giveni={S\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=cf5b1743faac84adc5a925b531a6aff8}{%
+           family={Wisner},
+           familyi={W\bibinitperiod},
+           given={Ben},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=addab469746adc9f7d074cf1427801f5}{%
+           family={Adler},
+           familyi={A\bibinitperiod},
+           given={Carolina},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=394742240c3fd46538fddae3be7d24cd}{%
+           family={Thomalla},
+           familyi={T\bibinitperiod},
+           given={Frank},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0bc5cc3154005477d2ea54824233267d}{%
+           family={Scolobig},
+           familyi={S\bibinitperiod},
+           given={Anna},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2b51b32d59e3c7a16fac379e940a608e}{%
+           family={Brady},
+           familyi={B\bibinitperiod},
+           given={Kate},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b3777b118a822801265b76a28e9919fa}{%
+           family={Bründl},
+           familyi={B\bibinitperiod},
+           given={Michael},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ed1a244353a28f5df5cf02e222c72e4e}{%
+           family={Neisser},
+           familyi={N\bibinitperiod},
+           given={Florian},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0f3a1b4182c45ba912c661e72e00ea7d}{%
+           family={Grenfell},
+           familyi={G\bibinitperiod},
+           given={Maree},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0ad29220f4a8ae8cedc8e5533c947501}{%
+           family={Maduz},
+           familyi={M\bibinitperiod},
+           given={Linda},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=554ddd4e2018cd7d36ccbf4c9e7158b6}{%
+           family={Prior},
+           familyi={P\bibinitperiod},
+           given={Timothy},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{a40885b062473dd103661432e9ea598f}
+      \strng{fullhash}{49bc8cd95e53df701372dc500665d748}
+      \strng{bibnamehash}{49bc8cd95e53df701372dc500665d748}
+      \strng{authorbibnamehash}{49bc8cd95e53df701372dc500665d748}
+      \strng{authornamehash}{a40885b062473dd103661432e9ea598f}
+      \strng{authorfullhash}{49bc8cd95e53df701372dc500665d748}
+      \field{sortinit}{E}
+      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Abstract Affluence and vulnerability are often seen as opposite sides of a coin—with affluence generally understood as reducing forms of vulnerability through increased resilience and adaptive capacity. However, in the context of climate change and an increase in associated hazards and disasters, we suggest the need to re-examine this dynamic relationship—a complex association we define here as the Affluence–Vulnerability Interface (AVI). We review research in different national contexts to show how a more nuanced understanding of the AVI can (a) problematize the notion that increasing material affluence necessarily has a mitigating influence on social vulnerability, (b) extend our analysis of social vulnerability beyond low-income regions to include affluent contexts and (c) improve our understanding of how psychosocial characteristics influence people’s vulnerability. Finally, we briefly outline three methodological approaches that we believe will assist future engagement with the AVI.}
+      \field{issn}{0165-0009, 1573-1480}
+      \field{journaltitle}{Climatic Change}
+      \field{langid}{english}
+      \field{month}{9}
+      \field{number}{1}
+      \field{shortjournal}{Climatic Change}
+      \field{title}{Rethinking the Interplay between Affluence and Vulnerability to Aid Climate Change Adaptive Capacity}
+      \field{urlday}{12}
+      \field{urlmonth}{1}
+      \field{urlyear}{2023}
+      \field{volume}{162}
+      \field{year}{2020}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{25\bibrangedash 39}
+      \range{pages}{15}
+      \verb{doi}
+      \verb 10.1007/s10584-020-02819-x
+      \endverb
+      \verb{file}
+      \verb X\:\\OneDrive - Aarhus Universitet\\ZoteroArticleStore\\Climatic Change2020\\Eriksen et al_2020_Rethinking the interplay between affluence and vulnerability to aid climate.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://link.springer.com/10.1007/s10584-020-02819-x
+      \endverb
+      \verb{url}
+      \verb https://link.springer.com/10.1007/s10584-020-02819-x
+      \endverb
+    \endentry
+    \entry{R-lmerTest}{manual}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=7cd3845a800c3291e727a82c1f2df45e}{%
+           family={Kuznetsova},
+           familyi={K\bibinitperiod},
+           given={Alexandra},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=49defd6c8b01af702fc4f2f9b6866813}{%
+           family={{Bruun Brockhoff}},
+           familyi={B\bibinitperiod},
+           given={Per},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=bee6d7c899eaa0271d16cf60b16a86d8}{%
+           family={{Haubo Bojesen Christensen}},
+           familyi={H\bibinitperiod},
+           given={Rune},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{ee90b672a0dbf4106ee60268eb8768fd}
+      \strng{fullhash}{1f9a6cb3bb7b6ba1835d2f238c88d8d8}
+      \strng{bibnamehash}{1f9a6cb3bb7b6ba1835d2f238c88d8d8}
+      \strng{authorbibnamehash}{1f9a6cb3bb7b6ba1835d2f238c88d8d8}
+      \strng{authornamehash}{ee90b672a0dbf4106ee60268eb8768fd}
+      \strng{authorfullhash}{1f9a6cb3bb7b6ba1835d2f238c88d8d8}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{R package version 3.1-3}
+      \field{title}{lmerTest: Tests in Linear Mixed Effects Models}
+      \field{year}{2022}
+      \verb{urlraw}
+      \verb https://github.com/runehaubo/lmerTestR
+      \endverb
+      \verb{url}
+      \verb https://github.com/runehaubo/lmerTestR
+      \endverb
+    \endentry
+    \entry{R-easystats}{manual}{}
+      \name{author}{6}{}{%
+        {{un=0,uniquepart=base,hash=e064e4ae54988e12b214c315997070d0}{%
+           family={Lüdecke},
+           familyi={L\bibinitperiod},
+           given={Daniel},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b21f8d3c6be7a2d1ab8d1b8cb84f1268}{%
+           family={Makowski},
+           familyi={M\bibinitperiod},
+           given={Dominique},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=6757054e1a50517507422c9958756a00}{%
+           family={Ben-Shachar},
+           familyi={B\bibinithyphendelim S\bibinitperiod},
+           given={Mattan\bibnamedelima S.},
+           giveni={M\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1d33f4a49d999a220aa925dd7fa59e0d}{%
+           family={Patil},
+           familyi={P\bibinitperiod},
+           given={Indrajeet},
+           giveni={I\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e31069b6e33a5dc335b9c57b2852afdd}{%
+           family={Wiernik},
+           familyi={W\bibinitperiod},
+           given={Brenton\bibnamedelima M.},
+           giveni={B\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4ad86f1a42c6addf0f15c7d6ac6aa20c}{%
+           family={Bacher},
+           familyi={B\bibinitperiod},
+           given={Etienne},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{07312856bfcec88454643821234f1dd3}
+      \strng{fullhash}{9721b6ea521be49816c67ed4b1be5c42}
+      \strng{bibnamehash}{9721b6ea521be49816c67ed4b1be5c42}
+      \strng{authorbibnamehash}{9721b6ea521be49816c67ed4b1be5c42}
+      \strng{authornamehash}{07312856bfcec88454643821234f1dd3}
+      \strng{authorfullhash}{9721b6ea521be49816c67ed4b1be5c42}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{R package version 0.6.0.4}
+      \field{title}{easystats: Framework for Easy Statistical Modeling, Visualization, and Reporting}
+      \field{year}{2023}
+      \verb{urlraw}
+      \verb https://easystats.github.io/easystats/
+      \endverb
+      \verb{url}
+      \verb https://easystats.github.io/easystats/
+      \endverb
+    \endentry
+    \entry{mileti1999disasters}{book}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=09b98addd7fc03474a11d5807714d693}{%
+           family={Mileti},
+           familyi={M\bibinitperiod},
+           given={Dennis},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Joseph Henry Press}%
+      }
+      \strng{namehash}{09b98addd7fc03474a11d5807714d693}
+      \strng{fullhash}{09b98addd7fc03474a11d5807714d693}
+      \strng{bibnamehash}{09b98addd7fc03474a11d5807714d693}
+      \strng{authorbibnamehash}{09b98addd7fc03474a11d5807714d693}
+      \strng{authornamehash}{09b98addd7fc03474a11d5807714d693}
+      \strng{authorfullhash}{09b98addd7fc03474a11d5807714d693}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Disasters by Design: {{A}} Reassessment of Natural Hazards in the {{United States}}}
+      \field{year}{1999}
+      \field{dateera}{ce}
+    \endentry
+    \entry{panwarDisasterDamageRecords2020}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=be3af403d4b4105c577c4ca13ff97a68}{%
+           family={Panwar},
+           familyi={P\bibinitperiod},
+           given={Vikrant},
+           giveni={V\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0432fdd9f30f6329005175947ef3a933}{%
+           family={Sen},
+           familyi={S\bibinitperiod},
+           given={Subir},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{938cfd347d93562bfeb43bb5ab1d2d93}
+      \strng{fullhash}{938cfd347d93562bfeb43bb5ab1d2d93}
+      \strng{bibnamehash}{938cfd347d93562bfeb43bb5ab1d2d93}
+      \strng{authorbibnamehash}{938cfd347d93562bfeb43bb5ab1d2d93}
+      \strng{authornamehash}{938cfd347d93562bfeb43bb5ab1d2d93}
+      \strng{authorfullhash}{938cfd347d93562bfeb43bb5ab1d2d93}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{issn}{2511-1280, 2511-1299}
+      \field{journaltitle}{Economics of Disasters and Climate Change}
+      \field{langid}{english}
+      \field{month}{7}
+      \field{number}{2}
+      \field{shortjournal}{EconDisCliCha}
+      \field{shorttitle}{Disaster {{Damage Records}} of {{EM-DAT}} and {{DesInventar}}}
+      \field{title}{Disaster {{Damage Records}} of {{EM-DAT}} and {{DesInventar}}: {{A Systematic Comparison}}}
+      \field{urlday}{12}
+      \field{urlmonth}{1}
+      \field{urlyear}{2023}
+      \field{volume}{4}
+      \field{year}{2020}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{295\bibrangedash 317}
+      \range{pages}{23}
+      \verb{doi}
+      \verb 10.1007/s41885-019-00052-0
+      \endverb
+      \verb{urlraw}
+      \verb http://link.springer.com/10.1007/s41885-019-00052-0
+      \endverb
+      \verb{url}
+      \verb http://link.springer.com/10.1007/s41885-019-00052-0
+      \endverb
+    \endentry
+    \entry{R-base}{manual}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=dcdebb6b35bff7c0568bf8c50ef8626d}{%
+           family={{R Core Team}},
+           familyi={R\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Vienna, Austria}%
+      }
+      \list{organization}{1}{%
+        {R Foundation for Statistical Computing}%
+      }
+      \strng{namehash}{dcdebb6b35bff7c0568bf8c50ef8626d}
+      \strng{fullhash}{dcdebb6b35bff7c0568bf8c50ef8626d}
+      \strng{bibnamehash}{dcdebb6b35bff7c0568bf8c50ef8626d}
+      \strng{authorbibnamehash}{dcdebb6b35bff7c0568bf8c50ef8626d}
+      \strng{authornamehash}{dcdebb6b35bff7c0568bf8c50ef8626d}
+      \strng{authorfullhash}{dcdebb6b35bff7c0568bf8c50ef8626d}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{R: A Language and Environment for Statistical Computing}
+      \field{year}{2022}
+      \verb{urlraw}
+      \verb https://www.R-project.org/
+      \endverb
+      \verb{url}
+      \verb https://www.R-project.org/
+      \endverb
+    \endentry
+    \entry{taubenbockQuotLastMileQuot2009}{article}{}
+      \name{author}{17}{}{%
+        {{un=0,uniquepart=base,hash=159d371d9ed8a59315fe6dc1f0b72400}{%
+           family={Taubenböck},
+           familyi={T\bibinitperiod},
+           given={H.},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=39a9d26a18b2f62c7f2ab33c0e1c746c}{%
+           family={Goseberg},
+           familyi={G\bibinitperiod},
+           given={N.},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4f7510f15462b0d90aa5a615555f4816}{%
+           family={Setiadi},
+           familyi={S\bibinitperiod},
+           given={N.},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b47f4a8f34a86b221e41891005045e78}{%
+           family={Lämmel},
+           familyi={L\bibinitperiod},
+           given={G.},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5a5d4b67bbb0d8a0e0951341a8fc8705}{%
+           family={Moder},
+           familyi={M\bibinitperiod},
+           given={F.},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a7c7c5a4478b5ad7e23b45389fb1796a}{%
+           family={Oczipka},
+           familyi={O\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=51598ebbc46f760d1a54463f9631a036}{%
+           family={Klüpfel},
+           familyi={K\bibinitperiod},
+           given={H.},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=031278f7aa13d627196b3550a6c2f9b2}{%
+           family={Wahl},
+           familyi={W\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d37329a384367690363242ce98426e72}{%
+           family={Schlurmann},
+           familyi={S\bibinitperiod},
+           given={T.},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=20eb1573d2951dd75629336fb5284bea}{%
+           family={Strunz},
+           familyi={S\bibinitperiod},
+           given={G.},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0f23882124e28e3cfbd328195e5059f8}{%
+           family={Birkmann},
+           familyi={B\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=6ec7a9db098278ae434d8546677605a0}{%
+           family={Nagel},
+           familyi={N\bibinitperiod},
+           given={K.},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9beee89b28d80a136beb9d99bfa92258}{%
+           family={Siegert},
+           familyi={S\bibinitperiod},
+           given={F.},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f54fbe070866674ec7e7bed200b9c1eb}{%
+           family={Lehmann},
+           familyi={L\bibinitperiod},
+           given={F.},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ec56a3df6aad498f5fe36955574cf70b}{%
+           family={Dech},
+           familyi={D\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a33f4ffd33eb1de4fa44d8d3cb393475}{%
+           family={Gress},
+           familyi={G\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=eb0e270758d0f400a56014d6cfd62118}{%
+           family={Klein},
+           familyi={K\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{1d75988868ba962fcb184f2168903f10}
+      \strng{fullhash}{375c1d8e39f5b51d65a508e20de9ba72}
+      \strng{bibnamehash}{375c1d8e39f5b51d65a508e20de9ba72}
+      \strng{authorbibnamehash}{375c1d8e39f5b51d65a508e20de9ba72}
+      \strng{authornamehash}{1d75988868ba962fcb184f2168903f10}
+      \strng{authorfullhash}{375c1d8e39f5b51d65a508e20de9ba72}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Abstract. Extreme natural events, like e.g. tsunamis or earthquakes, regularly lead to catastrophes with dramatic consequences. In recent years natural disasters caused hundreds of thousands of deaths, destruction of infrastructure, disruption of economic activity and loss of billions of dollars worth of property and thus revealed considerable deficits hindering their effective management: Needs for stakeholders, decision-makers as well as for persons concerned include systematic risk identification and evaluation, a way to assess countermeasures, awareness raising and decision support systems to be employed before, during and after crisis situations. The overall goal of this study focuses on interdisciplinary integration of various scientific disciplines to contribute to a tsunami early warning information system. In comparison to most studies our focus is on high-end geometric and thematic analysis to meet the requirements of small-scale, heterogeneous and complex coastal urban systems. Data, methods and results from engineering, remote sensing and social sciences are interlinked and provide comprehensive information for disaster risk assessment, management and reduction. In detail, we combine inundation modeling, urban morphology analysis, population assessment, socio-economic analysis of the population and evacuation modeling. The interdisciplinary results eventually lead to recommendations for mitigation strategies in the fields of spatial planning or coping capacity.}
+      \field{day}{28}
+      \field{issn}{1684-9981}
+      \field{journaltitle}{Natural Hazards and Earth System Sciences}
+      \field{langid}{english}
+      \field{month}{8}
+      \field{number}{4}
+      \field{shortjournal}{Nat. Hazards Earth Syst. Sci.}
+      \field{title}{\&quot;{{Last-Mile}}\&quot; Preparation for a Potential Disaster – {{Interdisciplinary}} Approach towards Tsunami Early Warning and an Evacuation Information System for the Coastal City of {{Padang}}, {{Indonesia}}}
+      \field{urlday}{12}
+      \field{urlmonth}{1}
+      \field{urlyear}{2023}
+      \field{volume}{9}
+      \field{year}{2009}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{1509\bibrangedash 1528}
+      \range{pages}{20}
+      \verb{doi}
+      \verb 10.5194/nhess-9-1509-2009
+      \endverb
+      \verb{file}
+      \verb X\:\\OneDrive - Aarhus Universitet\\ZoteroArticleStore\\Natural Hazards and Earth System Sciences2009\\Taubenböck et al_2009_&quot\;Last-Mile&quot\; preparation for a potential disaster – Interdisciplinary.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://nhess.copernicus.org/articles/9/1509/2009/
+      \endverb
+      \verb{url}
+      \verb https://nhess.copernicus.org/articles/9/1509/2009/
+      \endverb
+    \endentry
+    \entry{unitednationsWorldPopulationProspects2022}{dataset}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=3cc54e2c0d69c1b76b4d49edb22dd6d1}{%
+           family={{United Nations}},
+           familyi={U\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Department of Economic and Social Affairs, Population Division}%
+      }
+      \strng{namehash}{3cc54e2c0d69c1b76b4d49edb22dd6d1}
+      \strng{fullhash}{3cc54e2c0d69c1b76b4d49edb22dd6d1}
+      \strng{bibnamehash}{3cc54e2c0d69c1b76b4d49edb22dd6d1}
+      \strng{authorbibnamehash}{3cc54e2c0d69c1b76b4d49edb22dd6d1}
+      \strng{authornamehash}{3cc54e2c0d69c1b76b4d49edb22dd6d1}
+      \strng{authorfullhash}{3cc54e2c0d69c1b76b4d49edb22dd6d1}
+      \field{sortinit}{U}
+      \field{sortinithash}{6901a00e45705986ee5e7ca9fd39adca}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{World {{Population Prospects}} 2022, {{Online Edition}}.}
+      \field{urlday}{10}
+      \field{urlmonth}{1}
+      \field{urlyear}{2023}
+      \field{year}{2022}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb C\:\\Users\\webma\\Zotero\\storage\\74Z4BQLU\\CSV.html
+      \endverb
+      \verb{urlraw}
+      \verb https://population.un.org/wpp/Download/Standard/CSV/
+      \endverb
+      \verb{url}
+      \verb https://population.un.org/wpp/Download/Standard/CSV/
+      \endverb
+    \endentry
+    \entry{weinerClimateChangeCoverage2021}{article}{}
+      \name{author}{11}{}{%
+        {{un=0,uniquepart=base,hash=7125596292c791912bce2272db502eb3}{%
+           family={Weiner},
+           familyi={W\bibinitperiod},
+           given={Roberta},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=cdba14a1182a915df637a140d57261a2}{%
+           family={Church},
+           familyi={C\bibinitperiod},
+           given={Sarah\bibnamedelima P.},
+           giveni={S\bibinitperiod\bibinitdelim P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=6af0d20ece6285b8324ec578e84762ab}{%
+           family={Lu},
+           familyi={L\bibinitperiod},
+           given={Junyu},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b718df44a50863d6b7e885fe9a5e94df}{%
+           family={Esman},
+           familyi={E\bibinitperiod},
+           given={Laura\bibnamedelima A.},
+           giveni={L\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1c854033a796a067a6b4b766c661a73a}{%
+           family={Getson},
+           familyi={G\bibinitperiod},
+           given={Jackie\bibnamedelima M.},
+           giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ee7d23248bacdba4cd80166d261992d0}{%
+           family={Fleckenstein},
+           familyi={F\bibinitperiod},
+           given={Michelle},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=df212548a3d2866e8665b2135c3d9b13}{%
+           family={Radulski},
+           familyi={R\bibinitperiod},
+           given={Brennan},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=179bd4ddb1dc986ddbc30892f8f6e317}{%
+           family={Ranjan},
+           familyi={R\bibinitperiod},
+           given={Pranay},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d1a90ae4b5dd1e21422dd05a74f79c20}{%
+           family={Usher},
+           familyi={U\bibinitperiod},
+           given={Emily},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0c504dc09ea7a648e2bf6ccf7ce89efd}{%
+           family={Prokopy},
+           familyi={P\bibinitperiod},
+           given={Linda\bibnamedelima S.},
+           giveni={L\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1d1d627094e77a88a163e0dc433dc10e}{%
+           family={Pfeiffer},
+           familyi={P\bibinitperiod},
+           given={Linda},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{cb6dc0fb7a8509c7c31515ed15281692}
+      \strng{fullhash}{382fdc23af5a891fa14a53be2358e756}
+      \strng{bibnamehash}{382fdc23af5a891fa14a53be2358e756}
+      \strng{authorbibnamehash}{382fdc23af5a891fa14a53be2358e756}
+      \strng{authornamehash}{cb6dc0fb7a8509c7c31515ed15281692}
+      \strng{authorfullhash}{382fdc23af5a891fa14a53be2358e756}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{issn}{0165-0009, 1573-1480}
+      \field{journaltitle}{Climatic Change}
+      \field{langid}{english}
+      \field{month}{2}
+      \field{number}{3-4}
+      \field{shortjournal}{Climatic Change}
+      \field{shorttitle}{Climate Change Coverage in the {{United States}} Media during the 2017 Hurricane Season}
+      \field{title}{Climate Change Coverage in the {{United States}} Media during the 2017 Hurricane Season: Implications for Climate Change Communication}
+      \field{urlday}{11}
+      \field{urlmonth}{1}
+      \field{urlyear}{2023}
+      \field{volume}{164}
+      \field{year}{2021}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{52}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1007/s10584-021-03032-0
+      \endverb
+      \verb{urlraw}
+      \verb http://link.springer.com/10.1007/s10584-021-03032-0
+      \endverb
+      \verb{url}
+      \verb http://link.springer.com/10.1007/s10584-021-03032-0
+      \endverb
+    \endentry
+    \entry{R-tidyverse}{manual}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=1d0f6977ce2d043e298a59a1cd75b7ef}{%
+           family={Wickham},
+           familyi={W\bibinitperiod},
+           given={Hadley},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{1d0f6977ce2d043e298a59a1cd75b7ef}
+      \strng{fullhash}{1d0f6977ce2d043e298a59a1cd75b7ef}
+      \strng{bibnamehash}{1d0f6977ce2d043e298a59a1cd75b7ef}
+      \strng{authorbibnamehash}{1d0f6977ce2d043e298a59a1cd75b7ef}
+      \strng{authornamehash}{1d0f6977ce2d043e298a59a1cd75b7ef}
+      \strng{authorfullhash}{1d0f6977ce2d043e298a59a1cd75b7ef}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{https://tidyverse.tidyverse.org}
+      \field{title}{tidyverse: Easily Install and Load the Tidyverse}
+      \field{year}{2022}
+    \endentry
+    \entry{worldbankWorldDevelopmentIndicators2022}{dataset}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=32730e15a7ca0bf0686ea8d4a3a46ab9}{%
+           family={{World Bank}},
+           familyi={W\bibinitperiod}}}%
+      }
+      \strng{namehash}{32730e15a7ca0bf0686ea8d4a3a46ab9}
+      \strng{fullhash}{32730e15a7ca0bf0686ea8d4a3a46ab9}
+      \strng{bibnamehash}{32730e15a7ca0bf0686ea8d4a3a46ab9}
+      \strng{authorbibnamehash}{32730e15a7ca0bf0686ea8d4a3a46ab9}
+      \strng{authornamehash}{32730e15a7ca0bf0686ea8d4a3a46ab9}
+      \strng{authorfullhash}{32730e15a7ca0bf0686ea8d4a3a46ab9}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{22}
+      \field{month}{12}
+      \field{title}{World {{Development Indicators}}}
+      \field{urlday}{10}
+      \field{urlmonth}{1}
+      \field{urlyear}{2023}
+      \field{year}{2022}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb C\:\\Users\\webma\\Zotero\\storage\\3EN8XRDI\\world-development-indicators.html
+      \endverb
+      \verb{urlraw}
+      \verb https://databank.worldbank.org/source/world-development-indicators
+      \endverb
+      \verb{url}
+      \verb https://databank.worldbank.org/source/world-development-indicators
+      \endverb
+    \endentry
+  \enddatalist
+  \datalist[entry]{apa/global//global/global}
+    \entry{alexanderGlobalObservedLongterm2016}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=36d4e71c755d93874a410b3334e2498f}{%
+           family={Alexander},
+           familyi={A\bibinitperiod},
+           given={Lisa\bibnamedelima V.},
+           giveni={L\bibinitperiod\bibinitdelim V\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{36d4e71c755d93874a410b3334e2498f}
+      \strng{fullhash}{36d4e71c755d93874a410b3334e2498f}
+      \strng{bibnamehash}{36d4e71c755d93874a410b3334e2498f}
+      \strng{authorbibnamehash}{36d4e71c755d93874a410b3334e2498f}
+      \strng{authornamehash}{36d4e71c755d93874a410b3334e2498f}
+      \strng{authorfullhash}{36d4e71c755d93874a410b3334e2498f}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{issn}{22120947}
+      \field{journaltitle}{Weather and Climate Extremes}
+      \field{langid}{english}
+      \field{month}{3}
+      \field{shortjournal}{Weather and Climate Extremes}
+      \field{shorttitle}{Global Observed Long-Term Changes in Temperature and Precipitation Extremes}
+      \field{title}{Global Observed Long-Term Changes in Temperature and Precipitation Extremes: {{A}} Review of Progress and Limitations in {{IPCC}} Assessments and Beyond}
+      \field{urlday}{12}
+      \field{urlmonth}{1}
+      \field{urlyear}{2023}
+      \field{volume}{11}
+      \field{year}{2016}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{4\bibrangedash 16}
+      \range{pages}{13}
+      \verb{doi}
+      \verb 10.1016/j.wace.2015.10.007
+      \endverb
+      \verb{file}
+      \verb X\:\\OneDrive - Aarhus Universitet\\ZoteroArticleStore\\Weather and Climate Extremes2016\\Alexander_2016_Global observed long-term changes in temperature and precipitation extremes.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://linkinghub.elsevier.com/retrieve/pii/S2212094715300414
+      \endverb
+      \verb{url}
+      \verb https://linkinghub.elsevier.com/retrieve/pii/S2212094715300414
+      \endverb
+    \endentry
+    \entry{bankoffTimeEssenceDisasters2004}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=cbc8018987c000b8a8bbe71f3923fadf}{%
+           family={Bankoff},
+           familyi={B\bibinitperiod},
+           given={Greg},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{cbc8018987c000b8a8bbe71f3923fadf}
+      \strng{fullhash}{cbc8018987c000b8a8bbe71f3923fadf}
+      \strng{bibnamehash}{cbc8018987c000b8a8bbe71f3923fadf}
+      \strng{authorbibnamehash}{cbc8018987c000b8a8bbe71f3923fadf}
+      \strng{authornamehash}{cbc8018987c000b8a8bbe71f3923fadf}
+      \strng{authorfullhash}{cbc8018987c000b8a8bbe71f3923fadf}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{As an historian whose interests lie in both contemporary disaster practice as well the historical roots of vulnerability, I have become increasingly intrigued by the manner in which the proponents of these two ‘fields’ approach the question of time in relation to disasters. Needless to say these actors regard it very differently. Social scientists (and here I include mainly sociologists, anthropologists and human geographers) largely pay lip service to its importance, at best mentioning its relevance en passant but giving historical analysis and specific historical example little real consideration in the greater scheme of things. At the same time, though, they place inordinate emphasis on the importance of ‘process’ as the basis upon which their understanding of what turns a natural hazard into a disaster depends. The concept of vulnerability is proposed as the key to understanding how social systems generate unequal exposure to risk by making some people more prone to disaster than others, a condition that is largely a function of the power relations operative in each society (Cannon 1994:14–15, 19; Wisner 1993:131–133). Vulnerability to historians, on the other hand, is not even really a conceptual term and, when used at all, usually indicates a state of being not a condition derivative of historical processes. Above all, disasters are primarily ‘events’ caused by a combination of seismological, meteorological or epidemiological agents (occasionally war is seen in this context as well) 2 that have certain detrimental physical and socioeconomic consequences. At their most extreme, they may even cause the downfall of societies. However, they are rarely integrated into any wider theoretical perspective (Ambraseys 1971; Landsberg 1980). Though both social scientists and historians may talk about disasters, they are not necessarily talking about the same thing: the one sees disasters as primarily a historical processes (or processes set within recent temporal parameters), the other as non-sequential historical events. This is unfortunate because primarily disasters are both historical processes and sequential events. If this assertion sounds rather convoluted, I trust the following discussion will make the distinction somewhat clearer though no amount of clarification is really sufficient to adequately address this question. Instead, I intend what I say more as ‘a line of thinking in progress’ than ‘a work in progress’.}
+      \field{issn}{0280-7270, 2753-5703}
+      \field{journaltitle}{International Journal of Mass Emergencies \& Disasters}
+      \field{langid}{english}
+      \field{month}{11}
+      \field{number}{3}
+      \field{shortjournal}{International Journal of Mass Emergencies \& Disasters}
+      \field{shorttitle}{Time Is of the {{Essence}}}
+      \field{title}{Time Is of the {{Essence}}: {{Disasters}}, {{Vulnerability}} and {{History}} {\textsuperscript{1}}}
+      \field{urlday}{12}
+      \field{urlmonth}{1}
+      \field{urlyear}{2023}
+      \field{volume}{22}
+      \field{year}{2004}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{23\bibrangedash 42}
+      \range{pages}{20}
+      \verb{doi}
+      \verb 10.1177/028072700402200303
+      \endverb
+      \verb{urlraw}
+      \verb http://journals.sagepub.com/doi/10.1177/028072700402200303
+      \endverb
+      \verb{url}
+      \verb http://journals.sagepub.com/doi/10.1177/028072700402200303
+      \endverb
+    \endentry
+    \entry{R-lme4}{manual}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=291c4bc67cf41a2019405a2328a9b75e}{%
+           family={Bates},
+           familyi={B\bibinitperiod},
+           given={Douglas},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0041cc0eb4aa28929ffbd059d5e4add5}{%
+           family={Maechler},
+           familyi={M\bibinitperiod},
+           given={Martin},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d6b13be971f13ee03cc83cded41b6d7e}{%
+           family={Bolker},
+           familyi={B\bibinitperiod},
+           given={Ben},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=666afa7867ec142c4a63a819a19244f9}{%
+           family={Walker},
+           familyi={W\bibinitperiod},
+           given={Steven},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{d09b320744f09c093eb8b0d7f6bbdda0}
+      \strng{fullhash}{7fb4c5e907b1e55e95b530d5388bd764}
+      \strng{bibnamehash}{7fb4c5e907b1e55e95b530d5388bd764}
+      \strng{authorbibnamehash}{7fb4c5e907b1e55e95b530d5388bd764}
+      \strng{authornamehash}{d09b320744f09c093eb8b0d7f6bbdda0}
+      \strng{authorfullhash}{7fb4c5e907b1e55e95b530d5388bd764}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{R package version 1.1-32}
+      \field{title}{lme4: Linear Mixed-Effects Models using Eigen and S4}
+      \field{year}{2022}
+      \verb{urlraw}
+      \verb https://github.com/lme4/lme4/
+      \endverb
+      \verb{url}
+      \verb https://github.com/lme4/lme4/
+      \endverb
+    \endentry
+    \entry{comfortIgnoredBannerStory2019}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=076b1976bfb5a145632c93904b884c8d}{%
+           family={Comfort},
+           familyi={C\bibinitperiod},
+           given={Suzannah\bibnamedelima Evans},
+           giveni={S\bibinitperiod\bibinitdelim E\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{076b1976bfb5a145632c93904b884c8d}
+      \strng{fullhash}{076b1976bfb5a145632c93904b884c8d}
+      \strng{bibnamehash}{076b1976bfb5a145632c93904b884c8d}
+      \strng{authorbibnamehash}{076b1976bfb5a145632c93904b884c8d}
+      \strng{authornamehash}{076b1976bfb5a145632c93904b884c8d}
+      \strng{authorfullhash}{076b1976bfb5a145632c93904b884c8d}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{The hierarchy of influences model has been used to examine sociological influences on journalistic output originating from both inside and outside the newsroom. While providing useful snapshots of journalistic practice, studies using the hierarchical model have rarely accounted for changes in newsgathering over time. This study examines the emergence of climate journalism in the Philippines, one of the most vulnerable nations to the effects of climate change. Drawing on interviews with Filipino journalists, it finds that journalists struggled to place climate-related stories until after extreme weather events, particularly Typhoon Haiyan in 2013. News articles about climate change continued to grow in the following years, suggesting that a fundamental shift in the newsworthiness of climate change took place.}
+      \field{issn}{1464-8849, 1741-3001}
+      \field{journaltitle}{Journalism}
+      \field{langid}{english}
+      \field{month}{12}
+      \field{number}{12}
+      \field{shortjournal}{Journalism}
+      \field{shorttitle}{From Ignored to Banner Story}
+      \field{title}{From Ignored to Banner Story: {{The}} Role of Natural Disasters in Influencing the Newsworthiness of Climate Change in the {{Philippines}}}
+      \field{urlday}{11}
+      \field{urlmonth}{1}
+      \field{urlyear}{2023}
+      \field{volume}{20}
+      \field{year}{2019}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{1630\bibrangedash 1647}
+      \range{pages}{18}
+      \verb{doi}
+      \verb 10.1177/1464884917727426
+      \endverb
+      \verb{urlraw}
+      \verb http://journals.sagepub.com/doi/10.1177/1464884917727426
+      \endverb
+      \verb{url}
+      \verb http://journals.sagepub.com/doi/10.1177/1464884917727426
+      \endverb
+    \endentry
+    \entry{cred/uclouvainEMDATInternationalDisaster2023}{dataset}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=256db882099477eab04d50171cc3b1f7}{%
+           family={{CRED/UCLouvain}},
+           familyi={C\bibinitperiod}}}%
+      }
+      \strng{namehash}{256db882099477eab04d50171cc3b1f7}
+      \strng{fullhash}{256db882099477eab04d50171cc3b1f7}
+      \strng{bibnamehash}{256db882099477eab04d50171cc3b1f7}
+      \strng{authorbibnamehash}{256db882099477eab04d50171cc3b1f7}
+      \strng{authornamehash}{256db882099477eab04d50171cc3b1f7}
+      \strng{authorfullhash}{256db882099477eab04d50171cc3b1f7}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{{EM-DAT}}: The {{International Disaster Database}}}
+      \field{urlday}{4}
+      \field{urlmonth}{1}
+      \field{urlyear}{2023}
+      \field{year}{2023}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.emdat.be/
+      \endverb
+      \verb{url}
+      \verb https://www.emdat.be/
+      \endverb
+    \endentry
+    \entry{eriksenRethinkingInterplayAffluence2020}{article}{}
+      \name{author}{14}{}{%
+        {{un=0,uniquepart=base,hash=2c1c2361fc5dae094e991bf029c70262}{%
+           family={Eriksen},
+           familyi={E\bibinitperiod},
+           given={Christine},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=13e92b6c93ac88e0d577df2534a8d9c3}{%
+           family={Simon},
+           familyi={S\bibinitperiod},
+           given={Gregory\bibnamedelima L.},
+           giveni={G\bibinitperiod\bibinitdelim L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0298e1da07bc8b60037abf8004ae587d}{%
+           family={Roth},
+           familyi={R\bibinitperiod},
+           given={Florian},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=987dafffd10a05fe44198c468c93d139}{%
+           family={Lakhina},
+           familyi={L\bibinitperiod},
+           given={Shefali\bibnamedelima Juneja},
+           giveni={S\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=cf5b1743faac84adc5a925b531a6aff8}{%
+           family={Wisner},
+           familyi={W\bibinitperiod},
+           given={Ben},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=addab469746adc9f7d074cf1427801f5}{%
+           family={Adler},
+           familyi={A\bibinitperiod},
+           given={Carolina},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=394742240c3fd46538fddae3be7d24cd}{%
+           family={Thomalla},
+           familyi={T\bibinitperiod},
+           given={Frank},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0bc5cc3154005477d2ea54824233267d}{%
+           family={Scolobig},
+           familyi={S\bibinitperiod},
+           given={Anna},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2b51b32d59e3c7a16fac379e940a608e}{%
+           family={Brady},
+           familyi={B\bibinitperiod},
+           given={Kate},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b3777b118a822801265b76a28e9919fa}{%
+           family={Bründl},
+           familyi={B\bibinitperiod},
+           given={Michael},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ed1a244353a28f5df5cf02e222c72e4e}{%
+           family={Neisser},
+           familyi={N\bibinitperiod},
+           given={Florian},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0f3a1b4182c45ba912c661e72e00ea7d}{%
+           family={Grenfell},
+           familyi={G\bibinitperiod},
+           given={Maree},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0ad29220f4a8ae8cedc8e5533c947501}{%
+           family={Maduz},
+           familyi={M\bibinitperiod},
+           given={Linda},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=554ddd4e2018cd7d36ccbf4c9e7158b6}{%
+           family={Prior},
+           familyi={P\bibinitperiod},
+           given={Timothy},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{a40885b062473dd103661432e9ea598f}
+      \strng{fullhash}{49bc8cd95e53df701372dc500665d748}
+      \strng{bibnamehash}{49bc8cd95e53df701372dc500665d748}
+      \strng{authorbibnamehash}{49bc8cd95e53df701372dc500665d748}
+      \strng{authornamehash}{a40885b062473dd103661432e9ea598f}
+      \strng{authorfullhash}{49bc8cd95e53df701372dc500665d748}
+      \field{sortinit}{E}
+      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Abstract Affluence and vulnerability are often seen as opposite sides of a coin—with affluence generally understood as reducing forms of vulnerability through increased resilience and adaptive capacity. However, in the context of climate change and an increase in associated hazards and disasters, we suggest the need to re-examine this dynamic relationship—a complex association we define here as the Affluence–Vulnerability Interface (AVI). We review research in different national contexts to show how a more nuanced understanding of the AVI can (a) problematize the notion that increasing material affluence necessarily has a mitigating influence on social vulnerability, (b) extend our analysis of social vulnerability beyond low-income regions to include affluent contexts and (c) improve our understanding of how psychosocial characteristics influence people’s vulnerability. Finally, we briefly outline three methodological approaches that we believe will assist future engagement with the AVI.}
+      \field{issn}{0165-0009, 1573-1480}
+      \field{journaltitle}{Climatic Change}
+      \field{langid}{english}
+      \field{month}{9}
+      \field{number}{1}
+      \field{shortjournal}{Climatic Change}
+      \field{title}{Rethinking the Interplay between Affluence and Vulnerability to Aid Climate Change Adaptive Capacity}
+      \field{urlday}{12}
+      \field{urlmonth}{1}
+      \field{urlyear}{2023}
+      \field{volume}{162}
+      \field{year}{2020}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{25\bibrangedash 39}
+      \range{pages}{15}
+      \verb{doi}
+      \verb 10.1007/s10584-020-02819-x
+      \endverb
+      \verb{file}
+      \verb X\:\\OneDrive - Aarhus Universitet\\ZoteroArticleStore\\Climatic Change2020\\Eriksen et al_2020_Rethinking the interplay between affluence and vulnerability to aid climate.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://link.springer.com/10.1007/s10584-020-02819-x
+      \endverb
+      \verb{url}
+      \verb https://link.springer.com/10.1007/s10584-020-02819-x
+      \endverb
+    \endentry
+    \entry{R-lmerTest}{manual}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=7cd3845a800c3291e727a82c1f2df45e}{%
+           family={Kuznetsova},
+           familyi={K\bibinitperiod},
+           given={Alexandra},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=49defd6c8b01af702fc4f2f9b6866813}{%
+           family={{Bruun Brockhoff}},
+           familyi={B\bibinitperiod},
+           given={Per},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=bee6d7c899eaa0271d16cf60b16a86d8}{%
+           family={{Haubo Bojesen Christensen}},
+           familyi={H\bibinitperiod},
+           given={Rune},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{ee90b672a0dbf4106ee60268eb8768fd}
+      \strng{fullhash}{1f9a6cb3bb7b6ba1835d2f238c88d8d8}
+      \strng{bibnamehash}{1f9a6cb3bb7b6ba1835d2f238c88d8d8}
+      \strng{authorbibnamehash}{1f9a6cb3bb7b6ba1835d2f238c88d8d8}
+      \strng{authornamehash}{ee90b672a0dbf4106ee60268eb8768fd}
+      \strng{authorfullhash}{1f9a6cb3bb7b6ba1835d2f238c88d8d8}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{R package version 3.1-3}
+      \field{title}{lmerTest: Tests in Linear Mixed Effects Models}
+      \field{year}{2022}
+      \verb{urlraw}
+      \verb https://github.com/runehaubo/lmerTestR
+      \endverb
+      \verb{url}
+      \verb https://github.com/runehaubo/lmerTestR
+      \endverb
+    \endentry
+    \entry{R-easystats}{manual}{}
+      \name{author}{6}{}{%
+        {{un=0,uniquepart=base,hash=e064e4ae54988e12b214c315997070d0}{%
+           family={Lüdecke},
+           familyi={L\bibinitperiod},
+           given={Daniel},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b21f8d3c6be7a2d1ab8d1b8cb84f1268}{%
+           family={Makowski},
+           familyi={M\bibinitperiod},
+           given={Dominique},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=6757054e1a50517507422c9958756a00}{%
+           family={Ben-Shachar},
+           familyi={B\bibinithyphendelim S\bibinitperiod},
+           given={Mattan\bibnamedelima S.},
+           giveni={M\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1d33f4a49d999a220aa925dd7fa59e0d}{%
+           family={Patil},
+           familyi={P\bibinitperiod},
+           given={Indrajeet},
+           giveni={I\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e31069b6e33a5dc335b9c57b2852afdd}{%
+           family={Wiernik},
+           familyi={W\bibinitperiod},
+           given={Brenton\bibnamedelima M.},
+           giveni={B\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4ad86f1a42c6addf0f15c7d6ac6aa20c}{%
+           family={Bacher},
+           familyi={B\bibinitperiod},
+           given={Etienne},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{07312856bfcec88454643821234f1dd3}
+      \strng{fullhash}{9721b6ea521be49816c67ed4b1be5c42}
+      \strng{bibnamehash}{9721b6ea521be49816c67ed4b1be5c42}
+      \strng{authorbibnamehash}{9721b6ea521be49816c67ed4b1be5c42}
+      \strng{authornamehash}{07312856bfcec88454643821234f1dd3}
+      \strng{authorfullhash}{9721b6ea521be49816c67ed4b1be5c42}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{R package version 0.6.0.4}
+      \field{title}{easystats: Framework for Easy Statistical Modeling, Visualization, and Reporting}
+      \field{year}{2023}
+      \verb{urlraw}
+      \verb https://easystats.github.io/easystats/
+      \endverb
+      \verb{url}
+      \verb https://easystats.github.io/easystats/
+      \endverb
+    \endentry
+    \entry{mileti1999disasters}{book}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=09b98addd7fc03474a11d5807714d693}{%
+           family={Mileti},
+           familyi={M\bibinitperiod},
+           given={Dennis},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Joseph Henry Press}%
+      }
+      \strng{namehash}{09b98addd7fc03474a11d5807714d693}
+      \strng{fullhash}{09b98addd7fc03474a11d5807714d693}
+      \strng{bibnamehash}{09b98addd7fc03474a11d5807714d693}
+      \strng{authorbibnamehash}{09b98addd7fc03474a11d5807714d693}
+      \strng{authornamehash}{09b98addd7fc03474a11d5807714d693}
+      \strng{authorfullhash}{09b98addd7fc03474a11d5807714d693}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Disasters by Design: {{A}} Reassessment of Natural Hazards in the {{United States}}}
+      \field{year}{1999}
+      \field{dateera}{ce}
+    \endentry
+    \entry{panwarDisasterDamageRecords2020}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=be3af403d4b4105c577c4ca13ff97a68}{%
+           family={Panwar},
+           familyi={P\bibinitperiod},
+           given={Vikrant},
+           giveni={V\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0432fdd9f30f6329005175947ef3a933}{%
+           family={Sen},
+           familyi={S\bibinitperiod},
+           given={Subir},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{938cfd347d93562bfeb43bb5ab1d2d93}
+      \strng{fullhash}{938cfd347d93562bfeb43bb5ab1d2d93}
+      \strng{bibnamehash}{938cfd347d93562bfeb43bb5ab1d2d93}
+      \strng{authorbibnamehash}{938cfd347d93562bfeb43bb5ab1d2d93}
+      \strng{authornamehash}{938cfd347d93562bfeb43bb5ab1d2d93}
+      \strng{authorfullhash}{938cfd347d93562bfeb43bb5ab1d2d93}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{issn}{2511-1280, 2511-1299}
+      \field{journaltitle}{Economics of Disasters and Climate Change}
+      \field{langid}{english}
+      \field{month}{7}
+      \field{number}{2}
+      \field{shortjournal}{EconDisCliCha}
+      \field{shorttitle}{Disaster {{Damage Records}} of {{EM-DAT}} and {{DesInventar}}}
+      \field{title}{Disaster {{Damage Records}} of {{EM-DAT}} and {{DesInventar}}: {{A Systematic Comparison}}}
+      \field{urlday}{12}
+      \field{urlmonth}{1}
+      \field{urlyear}{2023}
+      \field{volume}{4}
+      \field{year}{2020}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{295\bibrangedash 317}
+      \range{pages}{23}
+      \verb{doi}
+      \verb 10.1007/s41885-019-00052-0
+      \endverb
+      \verb{urlraw}
+      \verb http://link.springer.com/10.1007/s41885-019-00052-0
+      \endverb
+      \verb{url}
+      \verb http://link.springer.com/10.1007/s41885-019-00052-0
+      \endverb
+    \endentry
+    \entry{R-base}{manual}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=dcdebb6b35bff7c0568bf8c50ef8626d}{%
+           family={{R Core Team}},
+           familyi={R\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Vienna, Austria}%
+      }
+      \list{organization}{1}{%
+        {R Foundation for Statistical Computing}%
+      }
+      \strng{namehash}{dcdebb6b35bff7c0568bf8c50ef8626d}
+      \strng{fullhash}{dcdebb6b35bff7c0568bf8c50ef8626d}
+      \strng{bibnamehash}{dcdebb6b35bff7c0568bf8c50ef8626d}
+      \strng{authorbibnamehash}{dcdebb6b35bff7c0568bf8c50ef8626d}
+      \strng{authornamehash}{dcdebb6b35bff7c0568bf8c50ef8626d}
+      \strng{authorfullhash}{dcdebb6b35bff7c0568bf8c50ef8626d}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{R: A Language and Environment for Statistical Computing}
+      \field{year}{2022}
+      \verb{urlraw}
+      \verb https://www.R-project.org/
+      \endverb
+      \verb{url}
+      \verb https://www.R-project.org/
+      \endverb
+    \endentry
+    \entry{taubenbockQuotLastMileQuot2009}{article}{}
+      \name{author}{17}{}{%
+        {{un=0,uniquepart=base,hash=159d371d9ed8a59315fe6dc1f0b72400}{%
+           family={Taubenböck},
+           familyi={T\bibinitperiod},
+           given={H.},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=39a9d26a18b2f62c7f2ab33c0e1c746c}{%
+           family={Goseberg},
+           familyi={G\bibinitperiod},
+           given={N.},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4f7510f15462b0d90aa5a615555f4816}{%
+           family={Setiadi},
+           familyi={S\bibinitperiod},
+           given={N.},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b47f4a8f34a86b221e41891005045e78}{%
+           family={Lämmel},
+           familyi={L\bibinitperiod},
+           given={G.},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5a5d4b67bbb0d8a0e0951341a8fc8705}{%
+           family={Moder},
+           familyi={M\bibinitperiod},
+           given={F.},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a7c7c5a4478b5ad7e23b45389fb1796a}{%
+           family={Oczipka},
+           familyi={O\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=51598ebbc46f760d1a54463f9631a036}{%
+           family={Klüpfel},
+           familyi={K\bibinitperiod},
+           given={H.},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=031278f7aa13d627196b3550a6c2f9b2}{%
+           family={Wahl},
+           familyi={W\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d37329a384367690363242ce98426e72}{%
+           family={Schlurmann},
+           familyi={S\bibinitperiod},
+           given={T.},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=20eb1573d2951dd75629336fb5284bea}{%
+           family={Strunz},
+           familyi={S\bibinitperiod},
+           given={G.},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0f23882124e28e3cfbd328195e5059f8}{%
+           family={Birkmann},
+           familyi={B\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=6ec7a9db098278ae434d8546677605a0}{%
+           family={Nagel},
+           familyi={N\bibinitperiod},
+           given={K.},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9beee89b28d80a136beb9d99bfa92258}{%
+           family={Siegert},
+           familyi={S\bibinitperiod},
+           given={F.},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f54fbe070866674ec7e7bed200b9c1eb}{%
+           family={Lehmann},
+           familyi={L\bibinitperiod},
+           given={F.},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ec56a3df6aad498f5fe36955574cf70b}{%
+           family={Dech},
+           familyi={D\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a33f4ffd33eb1de4fa44d8d3cb393475}{%
+           family={Gress},
+           familyi={G\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=eb0e270758d0f400a56014d6cfd62118}{%
+           family={Klein},
+           familyi={K\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{1d75988868ba962fcb184f2168903f10}
+      \strng{fullhash}{375c1d8e39f5b51d65a508e20de9ba72}
+      \strng{bibnamehash}{375c1d8e39f5b51d65a508e20de9ba72}
+      \strng{authorbibnamehash}{375c1d8e39f5b51d65a508e20de9ba72}
+      \strng{authornamehash}{1d75988868ba962fcb184f2168903f10}
+      \strng{authorfullhash}{375c1d8e39f5b51d65a508e20de9ba72}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Abstract. Extreme natural events, like e.g. tsunamis or earthquakes, regularly lead to catastrophes with dramatic consequences. In recent years natural disasters caused hundreds of thousands of deaths, destruction of infrastructure, disruption of economic activity and loss of billions of dollars worth of property and thus revealed considerable deficits hindering their effective management: Needs for stakeholders, decision-makers as well as for persons concerned include systematic risk identification and evaluation, a way to assess countermeasures, awareness raising and decision support systems to be employed before, during and after crisis situations. The overall goal of this study focuses on interdisciplinary integration of various scientific disciplines to contribute to a tsunami early warning information system. In comparison to most studies our focus is on high-end geometric and thematic analysis to meet the requirements of small-scale, heterogeneous and complex coastal urban systems. Data, methods and results from engineering, remote sensing and social sciences are interlinked and provide comprehensive information for disaster risk assessment, management and reduction. In detail, we combine inundation modeling, urban morphology analysis, population assessment, socio-economic analysis of the population and evacuation modeling. The interdisciplinary results eventually lead to recommendations for mitigation strategies in the fields of spatial planning or coping capacity.}
+      \field{day}{28}
+      \field{issn}{1684-9981}
+      \field{journaltitle}{Natural Hazards and Earth System Sciences}
+      \field{langid}{english}
+      \field{month}{8}
+      \field{number}{4}
+      \field{shortjournal}{Nat. Hazards Earth Syst. Sci.}
+      \field{title}{\&quot;{{Last-Mile}}\&quot; Preparation for a Potential Disaster – {{Interdisciplinary}} Approach towards Tsunami Early Warning and an Evacuation Information System for the Coastal City of {{Padang}}, {{Indonesia}}}
+      \field{urlday}{12}
+      \field{urlmonth}{1}
+      \field{urlyear}{2023}
+      \field{volume}{9}
+      \field{year}{2009}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{1509\bibrangedash 1528}
+      \range{pages}{20}
+      \verb{doi}
+      \verb 10.5194/nhess-9-1509-2009
+      \endverb
+      \verb{file}
+      \verb X\:\\OneDrive - Aarhus Universitet\\ZoteroArticleStore\\Natural Hazards and Earth System Sciences2009\\Taubenböck et al_2009_&quot\;Last-Mile&quot\; preparation for a potential disaster – Interdisciplinary.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://nhess.copernicus.org/articles/9/1509/2009/
+      \endverb
+      \verb{url}
+      \verb https://nhess.copernicus.org/articles/9/1509/2009/
+      \endverb
+    \endentry
+    \entry{unitednationsWorldPopulationProspects2022}{dataset}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=3cc54e2c0d69c1b76b4d49edb22dd6d1}{%
+           family={{United Nations}},
+           familyi={U\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Department of Economic and Social Affairs, Population Division}%
+      }
+      \strng{namehash}{3cc54e2c0d69c1b76b4d49edb22dd6d1}
+      \strng{fullhash}{3cc54e2c0d69c1b76b4d49edb22dd6d1}
+      \strng{bibnamehash}{3cc54e2c0d69c1b76b4d49edb22dd6d1}
+      \strng{authorbibnamehash}{3cc54e2c0d69c1b76b4d49edb22dd6d1}
+      \strng{authornamehash}{3cc54e2c0d69c1b76b4d49edb22dd6d1}
+      \strng{authorfullhash}{3cc54e2c0d69c1b76b4d49edb22dd6d1}
+      \field{sortinit}{U}
+      \field{sortinithash}{6901a00e45705986ee5e7ca9fd39adca}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{World {{Population Prospects}} 2022, {{Online Edition}}.}
+      \field{urlday}{10}
+      \field{urlmonth}{1}
+      \field{urlyear}{2023}
+      \field{year}{2022}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb C\:\\Users\\webma\\Zotero\\storage\\74Z4BQLU\\CSV.html
+      \endverb
+      \verb{urlraw}
+      \verb https://population.un.org/wpp/Download/Standard/CSV/
+      \endverb
+      \verb{url}
+      \verb https://population.un.org/wpp/Download/Standard/CSV/
+      \endverb
+    \endentry
+    \entry{weinerClimateChangeCoverage2021}{article}{}
+      \name{author}{11}{}{%
+        {{un=0,uniquepart=base,hash=7125596292c791912bce2272db502eb3}{%
+           family={Weiner},
+           familyi={W\bibinitperiod},
+           given={Roberta},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=cdba14a1182a915df637a140d57261a2}{%
+           family={Church},
+           familyi={C\bibinitperiod},
+           given={Sarah\bibnamedelima P.},
+           giveni={S\bibinitperiod\bibinitdelim P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=6af0d20ece6285b8324ec578e84762ab}{%
+           family={Lu},
+           familyi={L\bibinitperiod},
+           given={Junyu},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b718df44a50863d6b7e885fe9a5e94df}{%
+           family={Esman},
+           familyi={E\bibinitperiod},
+           given={Laura\bibnamedelima A.},
+           giveni={L\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1c854033a796a067a6b4b766c661a73a}{%
+           family={Getson},
+           familyi={G\bibinitperiod},
+           given={Jackie\bibnamedelima M.},
+           giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ee7d23248bacdba4cd80166d261992d0}{%
+           family={Fleckenstein},
+           familyi={F\bibinitperiod},
+           given={Michelle},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=df212548a3d2866e8665b2135c3d9b13}{%
+           family={Radulski},
+           familyi={R\bibinitperiod},
+           given={Brennan},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=179bd4ddb1dc986ddbc30892f8f6e317}{%
+           family={Ranjan},
+           familyi={R\bibinitperiod},
+           given={Pranay},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d1a90ae4b5dd1e21422dd05a74f79c20}{%
+           family={Usher},
+           familyi={U\bibinitperiod},
+           given={Emily},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0c504dc09ea7a648e2bf6ccf7ce89efd}{%
+           family={Prokopy},
+           familyi={P\bibinitperiod},
+           given={Linda\bibnamedelima S.},
+           giveni={L\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1d1d627094e77a88a163e0dc433dc10e}{%
+           family={Pfeiffer},
+           familyi={P\bibinitperiod},
+           given={Linda},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{cb6dc0fb7a8509c7c31515ed15281692}
+      \strng{fullhash}{382fdc23af5a891fa14a53be2358e756}
+      \strng{bibnamehash}{382fdc23af5a891fa14a53be2358e756}
+      \strng{authorbibnamehash}{382fdc23af5a891fa14a53be2358e756}
+      \strng{authornamehash}{cb6dc0fb7a8509c7c31515ed15281692}
+      \strng{authorfullhash}{382fdc23af5a891fa14a53be2358e756}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{issn}{0165-0009, 1573-1480}
+      \field{journaltitle}{Climatic Change}
+      \field{langid}{english}
+      \field{month}{2}
+      \field{number}{3-4}
+      \field{shortjournal}{Climatic Change}
+      \field{shorttitle}{Climate Change Coverage in the {{United States}} Media during the 2017 Hurricane Season}
+      \field{title}{Climate Change Coverage in the {{United States}} Media during the 2017 Hurricane Season: Implications for Climate Change Communication}
+      \field{urlday}{11}
+      \field{urlmonth}{1}
+      \field{urlyear}{2023}
+      \field{volume}{164}
+      \field{year}{2021}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{52}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1007/s10584-021-03032-0
+      \endverb
+      \verb{urlraw}
+      \verb http://link.springer.com/10.1007/s10584-021-03032-0
+      \endverb
+      \verb{url}
+      \verb http://link.springer.com/10.1007/s10584-021-03032-0
+      \endverb
+    \endentry
+    \entry{R-tidyverse}{manual}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=1d0f6977ce2d043e298a59a1cd75b7ef}{%
+           family={Wickham},
+           familyi={W\bibinitperiod},
+           given={Hadley},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{1d0f6977ce2d043e298a59a1cd75b7ef}
+      \strng{fullhash}{1d0f6977ce2d043e298a59a1cd75b7ef}
+      \strng{bibnamehash}{1d0f6977ce2d043e298a59a1cd75b7ef}
+      \strng{authorbibnamehash}{1d0f6977ce2d043e298a59a1cd75b7ef}
+      \strng{authornamehash}{1d0f6977ce2d043e298a59a1cd75b7ef}
+      \strng{authorfullhash}{1d0f6977ce2d043e298a59a1cd75b7ef}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{https://tidyverse.tidyverse.org}
+      \field{title}{tidyverse: Easily Install and Load the Tidyverse}
+      \field{year}{2022}
+    \endentry
+    \entry{worldbankWorldDevelopmentIndicators2022}{dataset}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=32730e15a7ca0bf0686ea8d4a3a46ab9}{%
+           family={{World Bank}},
+           familyi={W\bibinitperiod}}}%
+      }
+      \strng{namehash}{32730e15a7ca0bf0686ea8d4a3a46ab9}
+      \strng{fullhash}{32730e15a7ca0bf0686ea8d4a3a46ab9}
+      \strng{bibnamehash}{32730e15a7ca0bf0686ea8d4a3a46ab9}
+      \strng{authorbibnamehash}{32730e15a7ca0bf0686ea8d4a3a46ab9}
+      \strng{authornamehash}{32730e15a7ca0bf0686ea8d4a3a46ab9}
+      \strng{authorfullhash}{32730e15a7ca0bf0686ea8d4a3a46ab9}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{22}
+      \field{month}{12}
+      \field{title}{World {{Development Indicators}}}
+      \field{urlday}{10}
+      \field{urlmonth}{1}
+      \field{urlyear}{2023}
+      \field{year}{2022}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb C\:\\Users\\webma\\Zotero\\storage\\3EN8XRDI\\world-development-indicators.html
+      \endverb
+      \verb{urlraw}
+      \verb https://databank.worldbank.org/source/world-development-indicators
+      \endverb
+      \verb{url}
+      \verb https://databank.worldbank.org/source/world-development-indicators
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
 \endinput
 
