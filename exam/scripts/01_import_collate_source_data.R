@@ -55,7 +55,8 @@ un_population_file_2022 <- "data/source/WPP2022_Population1JanuaryBySingleAgeSex
 worldbank_file <- "data/source/WorldBank_Extract_World_Development_indicators_Data.csv"
 
 # destination file
-processed_data_file <- "data/processed/disasters_top_impacted_by_country.csv"
+processed_data_file <- "data/processed/disasters_since_1960.csv"
+processed_data_file_rds <- "data/processed/disasters_since_1960.rds"
 
 # read the data
 EMDAT <- read_tsv(
@@ -132,14 +133,6 @@ EMDAT <- EMDAT %>%
         Region,
         Continent,
         Location,
-        Latitude,
-        Longitude,
-        `Start Year`,
-        `Start Month`,
-        `Start Day`,
-        `End Year`,
-        `End Month`,
-        `End Day`,
         `Total Deaths`,
         `No Injured`,
         `No Affected`,
@@ -147,8 +140,7 @@ EMDAT <- EMDAT %>%
         `Total Affected`,
         `Reconstruction Costs, Adjusted ('000 US$)`,
         `Insured Damages, Adjusted ('000 US$)`,
-        `Total Damages, Adjusted ('000 US$)`,
-        CPI
+        `Total Damages, Adjusted ('000 US$)`
     )
 
 # we now need to attach the population data
@@ -222,7 +214,7 @@ disasters_population_wb <- disasters_population %>%
     inner_join(wb_data, by = c("ISO" = "Country Code", "Year" = "Time"))
 
 # clean up memory
-rm(wb_data, disasters_population)
+rm(wb_data, disasters_population, un_population_data)
 
 # Population numbers are in thousands, so we need to multiply by 1000
 disasters_population_wb$Population <- disasters_population_wb$PopTotal * 1000
@@ -300,16 +292,51 @@ top_n <- unique(tmp$ISO)
 
 # now let's remove all the data except for the top 20 countries
 
-disasters_population_wb <- disasters_population_wb %>%
-    filter(ISO %in% top_n)
+# disasters_population_wb <- disasters_population_wb %>%
+#     filter(ISO %in% top_n)
 
 # clean up memory
 rm(tmp, top_10_affected, top_10_affected_pct, top_10_deaths, top_10_deaths_pct, top_n)
 
 # remove some final columns
 disasters_population_wb <- disasters_population_wb %>%
-    select(-AgeGrp, -AgeGrpStart, -AgeGrpSpan)
+    select(
+        year = Year,
+        iso = ISO,
+        disaster_type = `Disaster Type`,
+        country = Country,
+        region = Region,
+        continent = Continent,
+        deaths = `Total Deaths`,
+        deaths_pct = Deaths_pct,
+        affected = `Total Affected`,
+        affected_pct = Affected_pct,
+        damage_cost = `Total Damages, Adjusted ('000 US$)`,
+        population = Population,
+        population_density = PopDensity,
+        gdp_current_usd = `GDP (current US$) [NY.GDP.MKTP.CD]`,
+        urban_population_pct = `Urban population (% of total population) [SP.URB.TOTL.IN.ZS]`,
+        rural_population_pct = `Rural population (% of total population) [SP.RUR.TOTL.ZS]`,
+        phys_per_1000 = `Physicians (per 1,000 people) [SH.MED.PHYS.ZS]`,
+        hospital_beds_per_1000 = `Hospital beds (per 1,000 people) [SH.MED.BEDS.ZS]`,
+        nurses_midwives_per_1000 = `Nurses and midwives (per 1,000 people) [SH.MED.NUMW.P3]`,
+        mil_exp_pct_gdp = `Military expenditure (% of GDP) [MS.MIL.XPND.GD.ZS]`,
+        edu_exp_pct_gdp = `Government expenditure on education, total (% of GDP) [SE.XPD.TOTL.GD.ZS]`,
+        health_exp_pct_gdp = `Current health expenditure (% of GDP) [SH.XPD.CHEX.GD.ZS]`)
 
+# now we need to set all variables that are ".." to NAs, then we can convert them to numeric
 
+disasters_population_wb <- disasters_population_wb %>%
+    mutate_if(is.character, ~ ifelse(. == "..", NA, .))
+
+# Now we can convert columns that should be numeric to numeric.
+# except iso, disaster_type, country, region and continent
+
+disasters_population_wb <- disasters_population_wb %>%
+    mutate_at(vars(-iso, -disaster_type, -country, -region, -continent), as.numeric)
+disasters_population_wb$iso <- as.factor(disasters_population_wb$iso)
+disasters_population_wb$gdp_per_capita <- disasters_population_wb$gdp_current_usd / disasters_population_wb$population
 # save the data
 write_csv(disasters_population_wb, processed_data_file)
+# also save the data as an RDS file
+saveRDS(disasters_population_wb, processed_data_file_rds)
